@@ -5,3 +5,6 @@ A collection of automotive OSS projects which may help you in the automotive con
 
 Your contribution is necessary to keep this list alive, increase the quality and to expand it. You can read more about it's origin and how you can participate in the [contribution guide](CONTRIBUTING.md).
 
+## Engine Development
+* https://www.engine-sim.parts/ - A real-time internal combustion engine simulation, designed specifically to produce engine audio and simulate engine response characteristics. It is NOT a scientific tool and cannot be expected to provide accurate figures for the purposes of engineering or engine tuning.
+* https://github.com/speeduino/speeduino - Speeduino - An Arduino based engine management
