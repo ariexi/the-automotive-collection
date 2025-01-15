@@ -5,6 +5,16 @@ A collection of automotive OSS projects which may help you in the automotive con
 
 Your contribution is necessary to keep this list alive, increase the quality and to expand it. You can read more about it's origin and how you can participate in the [contribution guide](CONTRIBUTING.md).
 
+## Software Defined Vehicle (SDV)
+* https://github.com/quarterbit/SoftwareDefinedCarMap - Software Defined Vehicle Maps
+
 ## Engine Development
-* https://www.engine-sim.parts/ - A real-time internal combustion engine simulation, designed specifically to produce engine audio and simulate engine response characteristics. It is NOT a scientific tool and cannot be expected to provide accurate figures for the purposes of engineering or engine tuning.
+* <https://www.engine-sim.parts/> - A real-time internal combustion engine simulation, designed specifically to produce engine audio and simulate engine response characteristics. It is NOT a scientific tool and cannot be expected to provide accurate figures for the purposes of engineering or engine tuning.
 * https://github.com/speeduino/speeduino - Speeduino - An Arduino based engine management
+
+## Simulation Tools
+* https://github.com/soda-auto/soda-sim - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
+* see also [Engine Development](#engine-development)
+
+## Communication Protocols
+* https://github.com/COVESA/Open1722 - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
