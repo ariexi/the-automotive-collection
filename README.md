@@ -27,9 +27,16 @@ Content of this list:
 
 ## Software Defined Vehicle (SDV)
 * https://github.com/quarterbit/SoftwareDefinedCarMap - Software Defined Vehicle Maps
+* [SDV Guide](https://www.sdv.guide/) - The SDV Guide offers a comprehensive introduction to Software-Defined Vehicles (SDVs).
+* [SOAFEE](https://www.soafee.io/) - Scalable Open Architecture for Embedded Edge (SOAFEE)
+  * [Architecture Specification](https://architecture.docs.soafee.io/en/latest/index.html)
+  * [SOAFEE on GitLab](https://gitlab.com/soafee)
+  * [EWAOL](https://gitlab.com/soafee/ewaol/meta-ewaol) - Edge Workload Abstraction and Orchestration Layer
 
 ## Architecture and Design
 * [PlantText](https://www.planttext.com/) - The expert's design tool. PlantText is a fast, online UML diagram generator powered by PlantUML.
+* [SysON](https://mbse-syson.org/) - The NextGen SysML Modeling Tool
+* [Sirius](https://eclipse.dev/sirius/sirius-web.html) - An open-source low-code platform for defining custom web applications that support your specific visual languages
 
 ## AUTOSAR
 * [openAUTOSAR](https://github.com/openAUTOSAR/classic-platform)
@@ -63,7 +70,12 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [ThreadX](https://github.com/eclipse-threadx/rtos-docs) - Eclipse ThreadX is a real time operating system (RTOS) for Internet of Things (IoT) and edge devices powered by microcontroller units (MCUs). 
 * [Zephyr](https://github.com/zephyrproject-rtos) - The Zephyr Project is a scalable real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind.
 * [Apache NuttX](https://github.com/apache/nuttx) - Apache NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 64-bit microcontroller environments, the primary governing standards in NuttX are POSIX and ANSI standards.
-  
+
+## Automotive Software
+* [CodeLinaro](https://git.codelinaro.org/clo) - a lot of different automotive (I guess) related repos
+  * e.g., [Project la](https://git.codelinaro.org/groups/clo/la) - This project allows users to build an Android based platform containing additional enhancements for Qualcomm chipsets. The platform uses Google’s Android Linux implementation and tools.
+* [qcacld-2.0 for Qualcomm WIFI module](https://github.com/TechNexion/qcacld-2.0) - Maybe usable, but has to be checked - The qcacld-2.0 is Qualcomm WIFI module out-of-tree driver.
+
 ## [Awesome Robotic Tooling](https://github.com/Ly0n/awesome-robotic-tooling)
 `CC0-1.0 license`
 > A curated list of tooling for professional robotic development in C++ and Python with a touch of ROS, **autonomous driving** and aerospace
@@ -91,3 +103,6 @@ The first sections deals with tool around development, like:
 
 ## Artificial Intelligence (AI)
 * [THE OPEN SOURCE AI DEFINITION 1.0](https://opensource.org/ai)
+
+## Projects from Hackathons
+* [Eclipse SDV Hackathon Chapter Two](https://github.com/Eclipse-SDV-Hackathon-Chapter-Two)
