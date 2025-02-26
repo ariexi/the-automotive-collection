@@ -53,6 +53,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
    * [PILOT Drive Documentation](https://pilot-drive.readthedocs.io/en/latest/)
    * [PILOT Drive Software](https://github.com/lamemakes/pilot-drive)
    * [PILOT Drive Hardware](https://github.com/lamemakes/pilot-drive-HAT)
+ * [OkcarOS](https://github.com/okcar-os/android) - OkcarOS is an open-source system built on top of LineageOS/Android 13, specifically customized for automotive use. 
 
 ### Brake System Development
 * [Antilock Braking System in Carsim](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim)
