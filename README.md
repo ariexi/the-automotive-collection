@@ -38,6 +38,11 @@ Content of this list:
   * [SOAFEE on GitLab](https://gitlab.com/soafee)
   * [EWAOL](https://gitlab.com/soafee/ewaol/meta-ewaol) - Edge Workload Abstraction and Orchestration Layer
 
+### Public funded projects
+* [FEDERATE](https://federate-sdv.eu/) - European Software-Defined Vehicle of the Future (SDVoF) Initiative
+  * [GitHub](https://github.com/CSA-FEDERATE)
+  * [Building Blocks](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks)
+
 ### AUTOSAR
 * [openAUTOSAR](https://github.com/openAUTOSAR/classic-platform)
   * > This is a fork of the Arctic Core (the open source AUTOSAR embedded platform).
