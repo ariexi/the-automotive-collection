@@ -80,6 +80,13 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [ThreadX](https://github.com/eclipse-threadx/rtos-docs) - Eclipse ThreadX is a real time operating system (RTOS) for Internet of Things (IoT) and edge devices powered by microcontroller units (MCUs). 
 * [Zephyr](https://github.com/zephyrproject-rtos) - The Zephyr Project is a scalable real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind.
 * [Apache NuttX](https://github.com/apache/nuttx) - Apache NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 64-bit microcontroller environments, the primary governing standards in NuttX are POSIX and ANSI standards.
+* [OpenHarmony](https://gitee.com/openharmony/docs/tree/master/en/application-dev)
+  * [OpenHarmony documentation]([https://gitee.com/openharmony/docs/tree/master/en/application-dev](https://docs.openharmony.cn/pages/v5.0/en/OpenHarmony-Overview.md))
+  * [OpenHarmony repo(s)](https://gitee.com/openharmony)
+  * [OpenHarmony Read-only repo mirror on Github](https://github.com/openharmony)
+  * [Eclipse Oniro for OpenHarmony](https://github.com/eclipse-oniro4openharmony)
+    * [Eclipse Oniro Project Documentation](https://docs.oniroproject.org/)
+    * [Eclipse Oniro Mirrors](https://github.com/eclipse-oniro-mirrors/) - Welcome to the Eclipse Oniro Mirrors - This space mirrors all repositories from the OpenHarmony organization at gitee. These mirrored repositories are read-only and consumed by Eclipse Oniro build system.
 
 ### Communication Protocols
 * https://github.com/COVESA/Open1722 - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
@@ -117,6 +124,9 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### Artificial Intelligence (AI)
 * [THE OPEN SOURCE AI DEFINITION 1.0](https://opensource.org/ai)
+* [Abacus AI - Open-Source Generative AI](https://abacus.ai/opensource)
+* [Hugging Face](https://github.com/huggingface) - The AI community building the future.
+* [DeepSeek AI (Attention! due to latest security issues)](https://github.com/deepseek-ai)
 
 ### Projects from Hackathons
 * [Eclipse SDV Hackathon Chapter Two](https://github.com/Eclipse-SDV-Hackathon-Chapter-Two)
