@@ -99,6 +99,14 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### Programming Language(s)
 * [Rust](https://www.rust-lang.org/)
+  
+### Project Managemenet
+* [Plane](https://plane.so/) - An open-source project management tool.
+  * [Plane Software](https://github.com/makeplane/plane)
+
+## Cloud
+* [OpenCloud](https://github.com/opencloud-eu) - Self-Hosted File Sharing - Secure, Simple and Reliable
+
 
 ## Other cool stuff (related to automotive)
 
