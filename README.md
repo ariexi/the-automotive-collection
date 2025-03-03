@@ -137,6 +137,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * see also [Engine Development](#engine-development)
 * [GridDyn - GridDyn is a power system simulator](https://github.com/LLNL/GridDyn) - (maybe adaptable to vehicles)
 * [OSTAR](https://github.com/DLR-TS/OSTAR-Quickstart) - The scientific project OSTAR is a set of software tools for automotive simulation. OSTAR enables a simulation where vehicles in CARLA are controlled by external models. Theses models are packaged with FMI and use OSI messages for communication. The integration of theses models to CARLA is given by the GroundTruth, SensorView and TrafficUpdate messages.
+* [AirSim](https://github.com/microsoft/AirSim) - AirSim is a simulator for drones, cars and more, built on Unreal Engine (we now also have an experimental Unity release). It is open-source, cross platform, and supports software-in-the-loop simulation with popular flight controllers such as PX4 & ArduPilot and hardware-in-loop with PX4 for physically and visually realistic simulations.
+  * [AirSim Documentation](https://microsoft.github.io/AirSim/)
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
@@ -151,6 +153,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ## Cloud
 * [OpenCloud](https://github.com/opencloud-eu) - Self-Hosted File Sharing - Secure, Simple and Reliable
 
+## Open Hardware
+* [eProcessor](https://eprocessor.eu/) - European, extendable, energy-efficient, extreme-scale, extensible, Processor Ecosystem
 
 ## Other cool stuff (related to automotive)
 
@@ -204,3 +208,14 @@ The first sections deals with tool around development, like:
       * Chat 
       * Video Conferencing
       * ...
+
+### European alternatives for digital products
+[European alternatives for digital products](https://european-alternatives.eu/) - We help you find European alternatives for digital service and products, like cloud services and SaaS products. 
+> A list of European alternatives (open source, free plans and commercial), like:
+* Project Management Software
+  * OpenProject
+  * Taiga
+* Cloud computing platforms
+* Marketing automation tools
+* Team communication services
+* ... and a lot more
