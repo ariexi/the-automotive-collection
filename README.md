@@ -90,6 +90,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### EV charging
 * [EVerest](https://everest.github.io/nightly/) is an open source modular framework for setting up a full stack environment for EV charging.
+* [evcc](https://github.com/evcc-io/evcc) is an extensible EV Charge Controller and home energy management system.
 
 ### Operating Systems
 * [L4Re](https://github.com/kernkonzept/manifest) - The L4Re Runtime Environment is an operating system framework for building systems with real-time, security, safety and virtualization requirements.
