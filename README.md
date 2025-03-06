@@ -121,6 +121,11 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ### Interfaces and APIs
 * [COVESA](https://github.com/COVESA) - Connected Vehicle Systems Alliance 
 
+### Data Management
+* [Eclipse openMDM](https://openmdm.org/) - openMDM® 5 is a kit of components and concepts, which can be used to compose applications for measured data management systems.
+  * [MDM|BL repo](https://gitlab.eclipse.org/eclipse/mdmbl)
+* [Eclipse Dataspace](https://dataspace.eclipse.org/) - provide a forum for individuals and organisations to build and promote open source software, specifications, and open collaboration models needed to create scalable, modular, extensible, industry-ready open source components based on open standards for dataspaces.
+
 ## Development
 
 ### Architecture and Design
