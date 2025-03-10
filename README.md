@@ -70,6 +70,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
  * [OkcarOS](https://github.com/okcar-os/android) - OkcarOS is an open-source system built on top of LineageOS/Android 13, specifically customized for automotive use. 
  * [Pilot Auto Reference Design](https://docs.pilot.auto/reference-design/)
    * [Web Auto](https://docs.web.auto/)
+ * [OpenAuto](https://github.com/f1xpl/openauto) is an AndroidAuto(tm) headunit emulator based on aasdk library and Qt libraries. Main goal is to run this application on the RaspberryPI 3 board computer smoothly.
+ * [HeadUnit Desktop](https://github.com/viktorgino/headunit-desktop) is a Qt based free and open source software that is intended to be run on computers built into cars.
 
 ### Brake System Development
 * [Antilock Braking System in Carsim](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim)
