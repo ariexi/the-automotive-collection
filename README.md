@@ -33,9 +33,13 @@ Content of this list:
 * [qcacld-2.0 for Qualcomm WIFI module](https://github.com/TechNexion/qcacld-2.0) - Maybe usable, but has to be checked - The qcacld-2.0 is Qualcomm WIFI module out-of-tree driver.
 * [Android Automotive](https://source.android.com/docs/automotive)
 
+### Automotive Applications
+* [Eclipse Ambient Light Services](https://gitlab.eclipse.org/eclipse/ambientlight/ambient-light-services) - Realizes a new interactive lighting concept
+
 ### Software Defined Vehicle (SDV)
-* https://github.com/quarterbit/SoftwareDefinedCarMap - Software Defined Vehicle Maps
+* [Software Defined Vehicle Maps](https://github.com/quarterbit/SoftwareDefinedCarMap)
 * [SDV Guide](https://www.sdv.guide/) - The SDV Guide offers a comprehensive introduction to Software-Defined Vehicles (SDVs).
+* SDV definition - Eclipse SDV-LVL - under construction
 * [SOAFEE](https://www.soafee.io/) - Scalable Open Architecture for Embedded Edge (SOAFEE)
   * [Architecture Specification](https://architecture.docs.soafee.io/en/latest/index.html)
   * [SOAFEE on GitLab](https://gitlab.com/soafee)
@@ -46,6 +50,11 @@ Content of this list:
   * [digital.auto documentation](https://docs.digital.auto/)
   * [The Digital Playbook](https://link.springer.com/content/pdf/10.1007/978-3-030-88221-1.pdf)
 * [Eclipse SDV Blueprints](https://github.com/eclipse-sdv-blueprints)
+
+### Container Orchestration
+* [Eclipse Ankaios](https://github.com/eclipse-ankaios/ankaios) - `License: Apache-2.0` - Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing (HPC) software. 
+   * [Eclipse Ankaios documentation](https://eclipse-ankaios.github.io/ankaios/latest/)
+* [Eclipse Ankaios Dashboard](https://github.com/eclipse-ankaios-dashboard/ankaios-dashboard) - `License: MIT` - The Ankaios Dashboard ist the ui interface for Eclipse Ankaios project.
 
 ### Public funded projects
 * [FEDERATE](https://federate-sdv.eu/) - European Software-Defined Vehicle of the Future (SDVoF) Initiative
@@ -70,6 +79,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
  * [OkcarOS](https://github.com/okcar-os/android) - OkcarOS is an open-source system built on top of LineageOS/Android 13, specifically customized for automotive use. 
  * [Pilot Auto Reference Design](https://docs.pilot.auto/reference-design/)
    * [Web Auto](https://docs.web.auto/)
+ * [OpenAuto](https://github.com/f1xpl/openauto) is an AndroidAuto(tm) headunit emulator based on aasdk library and Qt libraries. Main goal is to run this application on the RaspberryPI 3 board computer smoothly.
+ * [HeadUnit Desktop](https://github.com/viktorgino/headunit-desktop) is a Qt based free and open source software that is intended to be run on computers built into cars.
 
 ### Brake System Development
 * [Antilock Braking System in Carsim](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim)
@@ -99,6 +110,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
   * [Zephyr documentation](https://docs.zephyrproject.org/latest/introduction/index.html#)
 * [Apache NuttX](https://github.com/apache/nuttx) - Apache NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 64-bit microcontroller environments, the primary governing standards in NuttX are POSIX and ANSI standards.
   * [NuttX documentation](https://nuttx.apache.org/docs/latest/index.html)
+* [HaloOS](https://gitee.com/organizations/haloos/projects) - `License: Apache-2.0` - HaloOS is an open-source alternative to AUTOSAR Classic and Adaptive for both microcontrollers (µC) and microprocessors (µP). (based on NuttX)
+   * [HaloOS documentation](https://gitee.com/haloos/docs)
 * [OpenHarmony](https://gitee.com/openharmony/docs/tree/master/en/application-dev)
   * [OpenHarmony documentation]([https://gitee.com/openharmony/docs/tree/master/en/application-dev](https://docs.openharmony.cn/pages/v5.0/en/OpenHarmony-Overview.md))
   * [OpenHarmony repo(s)](https://gitee.com/openharmony)
@@ -112,16 +125,22 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
   * [DreamyOS](https://github.com/glen-mac/DreamyOS-seL4-Operating-System-AOS) - A Simple Operating System for the seL4 Micro Kernel
 * [systemd - System and Service Manager](https://systemd.io/)
 * [Redox OS](https://www.redox-os.org/) is a Unix-like general-purpose microkernel-based operating system written in Rust, aiming to bring the innovations of Rust to a modern microkernel, a full set of programs and be a complete alternative to Linux and BSD. 
-* [MS-DOS ;-)](https://github.com/microsoft/MS-DOS/tree/main)
 * [micro ROS](https://micro.ros.org/)
+* [OpenAMP](https://github.com/OpenAMP/open-amp) - `License: BSD-3-Clause. BSD-2-Clause, Apache-2.0, GPL-2.0` - The main OpenAMP library implementing RPMSG, Virtio, and Remoteproc for RTOS etc.
+   * [OpenAMP documentation](https://openamp.readthedocs.io/en/latest/index.html)
 
 ### Communication Protocols
-* https://github.com/COVESA/Open1722 - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
+* [Open1722)(https://github.com/COVESA/Open1722) - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
 
 ### Interfaces and APIs
 * [COVESA](https://github.com/COVESA) - Connected Vehicle Systems Alliance 
 
-## Development
+### Data Management
+* [Eclipse openMDM](https://openmdm.org/) - openMDM® 5 is a kit of components and concepts, which can be used to compose applications for measured data management systems.
+  * [MDM|BL repo](https://gitlab.eclipse.org/eclipse/mdmbl)
+* [Eclipse Dataspace](https://dataspace.eclipse.org/) - provide a forum for individuals and organisations to build and promote open source software, specifications, and open collaboration models needed to create scalable, modular, extensible, industry-ready open source components based on open standards for dataspaces.
+
+## Development (Tools)
 
 ### Architecture and Design
 * [PlantText](https://www.planttext.com/) - The expert's design tool. PlantText is a fast, online UML diagram generator powered by PlantUML.
@@ -140,6 +159,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [OSTAR](https://github.com/DLR-TS/OSTAR-Quickstart) - The scientific project OSTAR is a set of software tools for automotive simulation. OSTAR enables a simulation where vehicles in CARLA are controlled by external models. Theses models are packaged with FMI and use OSI messages for communication. The integration of theses models to CARLA is given by the GroundTruth, SensorView and TrafficUpdate messages.
 * [AirSim](https://github.com/microsoft/AirSim) - AirSim is a simulator for drones, cars and more, built on Unreal Engine (we now also have an experimental Unity release). It is open-source, cross platform, and supports software-in-the-loop simulation with popular flight controllers such as PX4 & ArduPilot and hardware-in-loop with PX4 for physically and visually realistic simulations.
   * [AirSim Documentation](https://microsoft.github.io/AirSim/)
+* [Lichtblick](https://github.com/Lichtblick-Suite/lichtblick) - `License: MPL2.0` - Lichtblick is an open-source application designed to streamline the workflow of automotive engineers and robotics users, helping them achieve engineering excellence with ease. Built as a fork of Foxglove Studio, Lichtblick simplifies data visualization and debugging for robotics and automotive applications.
+   * [Lichtblick documentation](https://lichtblick-suite.github.io/docs/)
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
@@ -157,7 +178,10 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ## Open Hardware
 * [eProcessor](https://eprocessor.eu/) - European, extendable, energy-efficient, extreme-scale, extensible, Processor Ecosystem
 
-## Other cool stuff (related to automotive)
+## Other cool stuff (Maybe related to automotive)
+
+### Operating Systems
+* [MS-DOS ;-)](https://github.com/microsoft/MS-DOS/tree/main)
 
 ### Artificial Intelligence (AI)
 * [THE OPEN SOURCE AI DEFINITION 1.0](https://opensource.org/ai)
