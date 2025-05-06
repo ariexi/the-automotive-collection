@@ -49,12 +49,21 @@ Content of this list:
   * [digital.auto playground](https://playground.digital.auto/)
   * [digital.auto documentation](https://docs.digital.auto/)
   * [The Digital Playbook](https://link.springer.com/content/pdf/10.1007/978-3-030-88221-1.pdf)
+* [Eclipse Autowrx](https://github.com/eclipse-autowrx) - `License: MIT`- Eclipse AutoWRX is the open source implementation of digital.auto, an industry-wide initiative enabling the automotive industry to establish a new, digital-first approach for the creation of next-generation customer experiences and data-driven mobility services.
+   * [Eclipse Autowrx documentation](https://docs.digital.auto/)
 * [Eclipse SDV Blueprints](https://github.com/eclipse-sdv-blueprints)
 
-### Container Orchestration
+### Connected Vehicle and Services
+* [Eclipse Connected Services Platform](https://github.com/eclipse-ecsp) - `License: Apache-2.0` - Eclipse Connected Services Platform (CSP) offers a comprehensive platform with all the essential components needed by automotive OEMs to develop end-to-end connected vehicle software solutions
+   * [Eclipse Connected Services Platform documentation](https://eclipse-ecsp.github.io/ecsp-website/)
+
+### Container and Software Orchestration
 * [Eclipse Ankaios](https://github.com/eclipse-ankaios/ankaios) - `License: Apache-2.0` - Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing (HPC) software. 
    * [Eclipse Ankaios documentation](https://eclipse-ankaios.github.io/ankaios/latest/)
 * [Eclipse Ankaios Dashboard](https://github.com/eclipse-ankaios-dashboard/ankaios-dashboard) - `License: MIT` - The Ankaios Dashboard ist the ui interface for Eclipse Ankaios project.
+* [Eclipse BlueChi](https://github.com/eclipse-bluechi) - `License: LGPL-2.1-or-later` - Eclipse BlueChi is a deterministic multi-node service controller. BlueChi can manage the states of different services across multiple nodes with a focus on highly regulated industries, such as those requiring functional safety.
+   * [Eclipse BlueChi documentation](https://bluechi.readthedocs.io/en/latest/)
+
 
 ### Public funded projects
 * [FEDERATE](https://federate-sdv.eu/) - European Software-Defined Vehicle of the Future (SDVoF) Initiative
@@ -90,7 +99,9 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
   * [Open AD Kit Documentation](https://autowarefoundation.github.io/open-ad-kit-docs/latest/version-2.0/)
   * [Autoware reference design](https://gitlab.com/autowarefoundation/autoware_reference_design/-/blob/main/docs/index.md)
 * [AutoCore](https://autocore.ai/index.html) - AutoCore is one of the world’s leading high-performance, intelligent mobility software and automotive electrical and electronic architecture (EEA) solution providers. The company focuses on automotive middleware, tailored for different EEA computing platforms of next-generation vehicles. 
-
+* [Eclipse Automated Driving Open Research (ADORe)](https://github.com/eclipse-adore/adore) - `License: EPL-2.0` - Eclipse ADORe provides a modular software library and toolkit for decision making, planning, control and simulation of automated vehicles
+   * [Eclipse ADORe documentation](eclipse.github.io/adore/)
+  
 ### Battery Management System
 * [Battery Management System (by LibreSolar)](https://enaccess.org/materials/battery-management-system/) - Save time and money by using an Open Source Battery Management System (BMS), suitable for various applications.
   * [Features](https://github.com/LibreSolar/bms-c1#features)
@@ -102,6 +113,15 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ### EV charging
 * [EVerest](https://everest.github.io/nightly/) is an open source modular framework for setting up a full stack environment for EV charging.
 * [evcc](https://github.com/evcc-io/evcc) is an extensible EV Charge Controller and home energy management system.
+
+### Base Software, Middleware and Communication Protocols
+* [Eclipse Chariott](https://github.com/eclipse-chariott) - `License: MIT` - The Eclipse Chariott project aims to simplify and enhance in-vehicle software developer productivity by providing a metadata-driven middleware/abstraction layer that allows modern application programming models to target in-vehicle functions through a digital representation of vehicle state and capabilities and provides an extensible and dynamic architecture to access the vehicle hardware and sensors.
+* [Eclipse eCAL](https://github.com/eclipse-ecal) - `License: Apache-2.0` - Eclipse eCAL (enhanced Communication Abstraction Layer) is a fast publish-subscribe middleware that can manage inter-process data exchange, as well as inter-host communication.
+   * [Eclipse eCAL documentation](https://eclipse-ecal.github.io/ecal/stable/index.html)
+* [Eclipse Ibeji](https://github.com/eclipse-ibeji) - `License: MIT` - Eclipse Ibeji aims to provide the capability to express a digital representation of the vehicle state and its capabilities through an extensible, open and dynamic architecture that provides access to the vehicle hardware, sensors and capabilities.
+
+#### Communication Protocols
+* [Open1722](https://github.com/COVESA/Open1722) - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
 
 ### Operating Systems
 * [L4Re](https://github.com/kernkonzept/manifest) - The L4Re Runtime Environment is an operating system framework for building systems with real-time, security, safety and virtualization requirements.
@@ -129,9 +149,6 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [OpenAMP](https://github.com/OpenAMP/open-amp) - `License: BSD-3-Clause. BSD-2-Clause, Apache-2.0, GPL-2.0` - The main OpenAMP library implementing RPMSG, Virtio, and Remoteproc for RTOS etc.
    * [OpenAMP documentation](https://openamp.readthedocs.io/en/latest/index.html)
 
-### Communication Protocols
-* [Open1722)(https://github.com/COVESA/Open1722) - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
-
 ### Interfaces and APIs
 * [COVESA](https://github.com/COVESA) - Connected Vehicle Systems Alliance 
 
@@ -151,9 +168,12 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Eclipse Theia](https://github.com/eclipse-theia/theia)
   * [Eclipse Theioa documentation](https://theia-ide.org/docs/)
 * [Elements SDK](https://github.com/aesc-silicon/elements-sdk)
+* [Eclipse APP4MC](https://gitlab.eclipse.org/eclipse/app4mc) - `License: EPL-2.0` - Eclipse APP4MC is a platform for engineering embedded multi- and many-core software systems. The platform enables the creation and management of complex tool chains including simulation and validation. 
+* [Eclipse Velocitas](https://github.com/eclipse-velocitas) - `License: Apache-2.0` - Eclipse Velocitas provides a development toolchain to create containerized in-vehicle applications (Vehicle Apps) that offers a comfortable, fast and efficient development experience to increase the velocity of a development team. 
+   * [Eclipse Velocitas documentation](https://eclipse.dev/velocitas/)
 
 ### Simulation Tools
-* https://github.com/soda-auto/soda-sim - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
+* [SODA.Sim](https://github.com/soda-auto/soda-sim) - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
 * see also [Engine Development](#engine-development)
 * [GridDyn - GridDyn is a power system simulator](https://github.com/LLNL/GridDyn) - (maybe adaptable to vehicles)
 * [OSTAR](https://github.com/DLR-TS/OSTAR-Quickstart) - The scientific project OSTAR is a set of software tools for automotive simulation. OSTAR enables a simulation where vehicles in CARLA are controlled by external models. Theses models are packaged with FMI and use OSI messages for communication. The integration of theses models to CARLA is given by the GroundTruth, SensorView and TrafficUpdate messages.
@@ -161,6 +181,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
   * [AirSim Documentation](https://microsoft.github.io/AirSim/)
 * [Lichtblick](https://github.com/Lichtblick-Suite/lichtblick) - `License: MPL2.0` - Lichtblick is an open-source application designed to streamline the workflow of automotive engineers and robotics users, helping them achieve engineering excellence with ease. Built as a fork of Foxglove Studio, Lichtblick simplifies data visualization and debugging for robotics and automotive applications.
    * [Lichtblick documentation](https://lichtblick-suite.github.io/docs/)
+* [Eclipse CLoe](https://github.com/eclipse/cloe) - `License: Apache-2.0` - Eclipse Cloe™ provides an enhanced middleware solution for closed-loop simulations, with a focus on functional software tests on system level.
+* [Eclipse OpenMCx](https://github.com/eclipse-openmcx/openmcx) - `License: Apache-2.0` - Eclipse OpenMCx™ is an open, tool-neutral co-simulation middleware based upon Modelica simulation standards, such as Functional Mock-up Interface (FMI)  and Distributed-Co-Simulation-Protocol (DCP) , aiming to support advanced simulation applications with a heterogenous toolchain in a distributed collaborative development process.
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
@@ -177,6 +199,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ## Open Hardware
 * [eProcessor](https://eprocessor.eu/) - European, extendable, energy-efficient, extreme-scale, extensible, Processor Ecosystem
+* [Eclipse Heimlig](https://github.com/eclipse-heimlig/heimlig) - `License: Apache-2.0, MIT` - Heimlig is a Hardware Security Module (HSM) firmware for embedded platforms written in Rust.
 
 ## Other cool stuff (Maybe related to automotive)
 
