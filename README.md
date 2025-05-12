@@ -49,12 +49,23 @@ Content of this list:
   * [digital.auto playground](https://playground.digital.auto/)
   * [digital.auto documentation](https://docs.digital.auto/)
   * [The Digital Playbook](https://link.springer.com/content/pdf/10.1007/978-3-030-88221-1.pdf)
+* [Eclipse Autowrx](https://github.com/eclipse-autowrx) - `License: MIT`- Eclipse AutoWRX is the open source implementation of digital.auto, an industry-wide initiative enabling the automotive industry to establish a new, digital-first approach for the creation of next-generation customer experiences and data-driven mobility services.
+   * [Eclipse Autowrx documentation](https://docs.digital.auto/)
 * [Eclipse SDV Blueprints](https://github.com/eclipse-sdv-blueprints)
+* [Eclipse Safe Open Vehicle Core (S-CORE)](https://github.com/eclipse-score) - `License: Apache-2.0` - The Eclipse Safe Open Vehicle Core project aims to develop an open-source core stack for Software Defined Vehicles (SDVs), specifically targeting embedded high-performance Electronic Control Units (ECUs).
+   * [Eclipse S-CORE documentation](https://eclipse-score.github.io/)
 
-### Container Orchestration
+### Connected Vehicle and Services
+* [Eclipse Connected Services Platform](https://github.com/eclipse-ecsp) - `License: Apache-2.0` - Eclipse Connected Services Platform (CSP) offers a comprehensive platform with all the essential components needed by automotive OEMs to develop end-to-end connected vehicle software solutions
+   * [Eclipse Connected Services Platform documentation](https://eclipse-ecsp.github.io/ecsp-website/)
+
+### Container, Software and Service Orchestration
 * [Eclipse Ankaios](https://github.com/eclipse-ankaios/ankaios) - `License: Apache-2.0` - Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing (HPC) software. 
    * [Eclipse Ankaios documentation](https://eclipse-ankaios.github.io/ankaios/latest/)
 * [Eclipse Ankaios Dashboard](https://github.com/eclipse-ankaios-dashboard/ankaios-dashboard) - `License: MIT` - The Ankaios Dashboard ist the ui interface for Eclipse Ankaios project.
+* [Eclipse BlueChi](https://github.com/eclipse-bluechi) - `License: LGPL-2.1-or-later` - Eclipse BlueChi is a deterministic multi-node service controller. BlueChi can manage the states of different services across multiple nodes with a focus on highly regulated industries, such as those requiring functional safety.
+   * [Eclipse BlueChi documentation](https://bluechi.readthedocs.io/en/latest/)
+* [Eclipse Pullpiri](https://github.com/eclipse-pullpiri) - `License: Apache-2.0` - The main goal of Eclipse Pullpiri project is to develop an efficient vehicle service orchestrator framework to realize the potential benefits of cloud native technologies for in-vehicle services and...
 
 ### Public funded projects
 * [FEDERATE](https://federate-sdv.eu/) - European Software-Defined Vehicle of the Future (SDVoF) Initiative
@@ -90,7 +101,11 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
   * [Open AD Kit Documentation](https://autowarefoundation.github.io/open-ad-kit-docs/latest/version-2.0/)
   * [Autoware reference design](https://gitlab.com/autowarefoundation/autoware_reference_design/-/blob/main/docs/index.md)
 * [AutoCore](https://autocore.ai/index.html) - AutoCore is one of the world’s leading high-performance, intelligent mobility software and automotive electrical and electronic architecture (EEA) solution providers. The company focuses on automotive middleware, tailored for different EEA computing platforms of next-generation vehicles. 
-
+* [Eclipse Automated Driving Open Research (ADORe)](https://github.com/eclipse-adore/adore) - `License: EPL-2.0` - Eclipse ADORe provides a modular software library and toolkit for decision making, planning, control and simulation of automated vehicles
+   * [Eclipse ADORe documentation](eclipse.github.io/adore/)
+* [Eclipse muto](https://github.com/eclipse-muto) - `License: EPL-2.0` - Eclipse Muto provides an adaptive framework and a runtime platform for dynamically composable model-driven ROS software stacks on autonomous vehicles and robots in general. 
+   * [Eclipse muto documentation](https://eclipse-muto.github.io/docs/docs)
+  
 ### Battery Management System
 * [Battery Management System (by LibreSolar)](https://enaccess.org/materials/battery-management-system/) - Save time and money by using an Open Source Battery Management System (BMS), suitable for various applications.
   * [Features](https://github.com/LibreSolar/bms-c1#features)
@@ -102,6 +117,19 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ### EV charging
 * [EVerest](https://everest.github.io/nightly/) is an open source modular framework for setting up a full stack environment for EV charging.
 * [evcc](https://github.com/evcc-io/evcc) is an extensible EV Charge Controller and home energy management system.
+
+### Base Software, Middleware and Communication Protocols
+* [Eclipse Chariott](https://github.com/eclipse-chariott) - `License: MIT` - The Eclipse Chariott project aims to simplify and enhance in-vehicle software developer productivity by providing a metadata-driven middleware/abstraction layer that allows modern application programming models to target in-vehicle functions through a digital representation of vehicle state and capabilities and provides an extensible and dynamic architecture to access the vehicle hardware and sensors.
+* [Eclipse eCAL](https://github.com/eclipse-ecal) - `License: Apache-2.0` - Eclipse eCAL (enhanced Communication Abstraction Layer) is a fast publish-subscribe middleware that can manage inter-process data exchange, as well as inter-host communication.
+   * [Eclipse eCAL documentation](https://eclipse-ecal.github.io/ecal/stable/index.html)
+* [Eclipse Ibeji](https://github.com/eclipse-ibeji) - `License: MIT` - Eclipse Ibeji aims to provide the capability to express a digital representation of the vehicle state and its capabilities through an extensible, open and dynamic architecture that provides access to the vehicle hardware, sensors and capabilities.
+* [Eclipse OpenBSW](https://github.com/eclipse-openbsw) - `License: Apache-2.0` - The project provides an embedded basic software (BSW) stack for microcontrollers written in C++ (language features up to C++14 are used)
+* [Eclipse p3com](https://github.com/eclipse-p3com/p3com) - `License: Apache-2.0` - Eclipse p3com - portable pluggable publish/subscribe communication
+* [Eclipse uProtocol](https://github.com/eclipse-uprotocol) - `License: Apache-2.0` - Eclipse uProtocol provides a transport agnostic, layered communication protocol that is deployment, OS, and device (vehicle, cloud, mobile phone, charging station, etc...) agnostic, leveraging well-known existing automotive and Internet standards. 
+   * [Eclipse uProtocol documentation](https://uprotocol.org/)
+
+#### Communication Protocols
+* [Open1722](https://github.com/COVESA/Open1722) - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
 
 ### Operating Systems
 * [L4Re](https://github.com/kernkonzept/manifest) - The L4Re Runtime Environment is an operating system framework for building systems with real-time, security, safety and virtualization requirements.
@@ -129,16 +157,27 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [OpenAMP](https://github.com/OpenAMP/open-amp) - `License: BSD-3-Clause. BSD-2-Clause, Apache-2.0, GPL-2.0` - The main OpenAMP library implementing RPMSG, Virtio, and Remoteproc for RTOS etc.
    * [OpenAMP documentation](https://openamp.readthedocs.io/en/latest/index.html)
 
-### Communication Protocols
-* [Open1722)(https://github.com/COVESA/Open1722) - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
+### Distributions
+* [Eclipse Leda](https://github.com/eclipse-leda) - `License: Apache-2.0` - The Eclipse Leda project will provide system image “recipes” to deliver a functional Linux-based image/distribution in the context of SDV (Software Defined Vehicle), by pulling together individual contributons from the SDV and the larger OSS community.
+   * [Eclipse Leda documentation](https://eclipse-leda.github.io/leda/)
+   * Eclipse Leda Incubator
+      * [leda-contrib-self-update-agent](https://github.com/eclipse-leda/leda-contrib-self-update-agent) - `License: Apache-2.0` - The self update agent (SUA) is a component responsible for the OS Update process.
+      * [leda-contrib-cloud-connector](https://github.com/eclipse-leda/leda-contrib-cloud-connector) - `License: Apache-2.0` - The repository contains the cloud connector component used in the Eclipse Leda stack.
+      * [Vehicle Update Manager](https://github.com/eclipse-leda/leda-contrib-vehicle-update-manager) - `License: Apache-2.0` - This repository contains the vehicle update manager component used in the Software Defined Vehicle EDGE stack.
 
 ### Interfaces and APIs
 * [COVESA](https://github.com/COVESA) - Connected Vehicle Systems Alliance 
+* [Eclipse Kuksa](https://github.com/eclipse-kuksa) - `License: Apache-2.0` - The open Eclipse KUKSA™ project aims to provide shared building blocks for the Software Defined Vehicles that can be shared across the industry.
+   * [Eclipse Kuksa documentation](https://eclipse-kuksa.github.io/kuksa-website/)
+   * [Eclipse Kuksa.val](https://github.com/eclipse-archived/kuksa.val) - `License: Apache-2.0` - archived
 
 ### Data Management
 * [Eclipse openMDM](https://openmdm.org/) - openMDM® 5 is a kit of components and concepts, which can be used to compose applications for measured data management systems.
   * [MDM|BL repo](https://gitlab.eclipse.org/eclipse/mdmbl)
 * [Eclipse Dataspace](https://dataspace.eclipse.org/) - provide a forum for individuals and organisations to build and promote open source software, specifications, and open collaboration models needed to create scalable, modular, extensible, industry-ready open source components based on open standards for dataspaces.
+* [Automotive Data Transformer](https://github.com/bosch-engineering/automotive_data_transformer_support) - `License: MIT` - The Automotive Data Transformer is a cloud-native measurement data processor to convert MDF files to Parquet, CSV or JSON formats, just with easy API requests.
+* [Eclipse Tractus-X](https://github.com/eclipse-tractusx) - `License: Apache-2.0` - The Eclipse Tractus-X™ project is the official open-source project in the Catena-X ecosystem under the umbrella of the Eclipse Foundation. The Catena-X Automotive Network e.V. promotes, sponsors, and coordinates the overlying requirements of the Eclipse Tractus-X Project. Catena-X is the first open and collaborative data ecosystem.
+   * [Eclipse Tractus-X documentation](https://eclipse-tractusx.github.io/)
 
 ## Development (Tools)
 
@@ -146,14 +185,26 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [PlantText](https://www.planttext.com/) - The expert's design tool. PlantText is a fast, online UML diagram generator powered by PlantUML.
 * [SysON](https://mbse-syson.org/) - The NextGen SysML Modeling Tool
 * [Sirius](https://eclipse.dev/sirius/sirius-web.html) - An open-source low-code platform for defining custom web applications that support your specific visual languages
+* [Eclipse Sphinx](https://gitlab.eclipse.org/eclipse/sphinx) - `License: EPL-2.0` - Eclipse Sphinx™ provides a modeling tool platform for Eclipse that eases the development of IDE-like tool support for modeling languages used in software and systems development.
+* [Eclipse Winery](https://github.com/winery) - `License: EPL-2.0, Apache-2.0` - Eclipse Winery is a web-based environment to graphically model TOSCA topologies and plans managing these topologies. 
+   * [Eclipse Winery documentation](https://winery.readthedocs.io/en/latest/index.html)
 
 ### IDE
 * [Eclipse Theia](https://github.com/eclipse-theia/theia)
   * [Eclipse Theioa documentation](https://theia-ide.org/docs/)
 * [Elements SDK](https://github.com/aesc-silicon/elements-sdk)
+* [Eclipse APP4MC](https://gitlab.eclipse.org/eclipse/app4mc) - `License: EPL-2.0` - Eclipse APP4MC is a platform for engineering embedded multi- and many-core software systems. The platform enables the creation and management of complex tool chains including simulation and validation. 
+* [Eclipse Velocitas](https://github.com/eclipse-velocitas) - `License: Apache-2.0` - Eclipse Velocitas provides a development toolchain to create containerized in-vehicle applications (Vehicle Apps) that offers a comfortable, fast and efficient development experience to increase the velocity of a development team. 
+   * [Eclipse Velocitas documentation](https://eclipse.dev/velocitas/)
+
+### Testing and Validation
+* [Eclipse openDuT](https://github.com/eclipse-opendut) - `License: Apache-2.0` - Eclipse openDuT automates the testing and validation process for automotive software and applications.
+   * [Eclipse openDuT documentation](https://opendut.eclipse.dev/book/index.html)
+* [Eclipse OpenXilEnv](https://github.com/eclipse-openxilenv) - `License: Apache-2.0` - Eclipse OpenXilEnv is a lightweight SIL/HIL environment that allows running embedded software functions on a PC without a target platform and compiler.
+* [Eclipse SKyBT](https://gitlab.eclipse.org/eclipse/skybt) - `License: Apache-2.0` - Eclipse SKyBT (Smart Keyword Based Testing) - The core idea of Eclipse SKyBT: Based on our experience from numerous projects, the success factor of testing lies in the test design, everything else can and should be automated as much as possible.
 
 ### Simulation Tools
-* https://github.com/soda-auto/soda-sim - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
+* [SODA.Sim](https://github.com/soda-auto/soda-sim) - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
 * see also [Engine Development](#engine-development)
 * [GridDyn - GridDyn is a power system simulator](https://github.com/LLNL/GridDyn) - (maybe adaptable to vehicles)
 * [OSTAR](https://github.com/DLR-TS/OSTAR-Quickstart) - The scientific project OSTAR is a set of software tools for automotive simulation. OSTAR enables a simulation where vehicles in CARLA are controlled by external models. Theses models are packaged with FMI and use OSI messages for communication. The integration of theses models to CARLA is given by the GroundTruth, SensorView and TrafficUpdate messages.
@@ -161,6 +212,16 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
   * [AirSim Documentation](https://microsoft.github.io/AirSim/)
 * [Lichtblick](https://github.com/Lichtblick-Suite/lichtblick) - `License: MPL2.0` - Lichtblick is an open-source application designed to streamline the workflow of automotive engineers and robotics users, helping them achieve engineering excellence with ease. Built as a fork of Foxglove Studio, Lichtblick simplifies data visualization and debugging for robotics and automotive applications.
    * [Lichtblick documentation](https://lichtblick-suite.github.io/docs/)
+* [Eclipse CLoe](https://github.com/eclipse/cloe) - `License: Apache-2.0` - Eclipse Cloe™ provides an enhanced middleware solution for closed-loop simulations, with a focus on functional software tests on system level.
+* [Eclipse OpenMCx](https://github.com/eclipse-openmcx/openmcx) - `License: Apache-2.0` - Eclipse OpenMCx™ is an open, tool-neutral co-simulation middleware based upon Modelica simulation standards, such as Functional Mock-up Interface (FMI)  and Distributed-Co-Simulation-Protocol (DCP) , aiming to support advanced simulation applications with a heterogenous toolchain in a distributed collaborative development process.
+* [Eclipse MOSAIC](https://github.com/eclipse-mosaic) - `License: EPL-2.0` - Eclipse MOSAIC™ provides a multi-domain/multi-scale co-simulation environment for virtual testing of connected and automated driving and mobility solutions.
+   * [Eclipse MOSAIC documentation](https://eclipse.dev/mosaic/docs/)
+* [Eclipse openPASS](https://gitlab.eclipse.org/eclipse/openpass) - `License: EPL-2.0` - Eclipse openPASS™ (open Platform for Assessment of Safety Systems) tool is a developed framework for the simulation of interaction between traffic participants to evaluate and parametrize active safety systems.
+   * [Eclipse openPASS documentation](https://openpass.eclipse.org/)
+* [Eclipse SCM](https://gitlab.eclipse.org/eclipse/scm) - `License: EPL-2.0` - The Stochastic Cognitive Model (SCM) is a driver behavior model for the use in multi-agent highway traffic simulations
+* [Eclipse SDV Developer Console](https://gitlab.eclipse.org/eclipse/dco/developer-console) - `License: Apache-2.0` - Eclipse SDV Developer Console (DCO) integrates necessary sources for software lifecycle management and there by optimizes the complete process from development to release of software.
+* [Eclipse SUMO](https://github.com/eclipse-sumo) - `License: EPL-2.0, GPL-2.0-or-later` - Eclipse Simulation of Urban Mobility (Eclipse SUMO™) is a free and open traffic simulation toolsuite.
+   * [Eclipse SUMO documentation](https://eclipse.dev/sumo/)
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
@@ -177,8 +238,13 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ## Open Hardware
 * [eProcessor](https://eprocessor.eu/) - European, extendable, energy-efficient, extreme-scale, extensible, Processor Ecosystem
+* [Eclipse Heimlig](https://github.com/eclipse-heimlig/heimlig) - `License: Apache-2.0, MIT` - Heimlig is a Hardware Security Module (HSM) firmware for embedded platforms written in Rust.
+* [Bosch Corner Radar Driver](https://github.com/bosch-engineering/corner_radar_driver) - `License: Apache-2.0` - This project provides ROS drivers for Bosch Corner Radar LGU sensors.  These packages are developed for ROS 2 Humble on Ubuntu 22.04.
+* [Bosch Off Highway Sensor Drivers](https://github.com/bosch-engineering/off_highway_sensor_drivers) - `License: Apache-2.0, MIT` - This project provides ROS drivers for Bosch Off-Highway sensor systems. The off_highway_sensor_drivers package is developed for ROS 2 Humble on Ubuntu 22.04.
 
 ## Other cool stuff (Maybe related to automotive)
+
+### [Software Heritage](https://archive.softwareheritage.org/browse/search/) - We are building the universal software archive
 
 ### Operating Systems
 * [MS-DOS ;-)](https://github.com/microsoft/MS-DOS/tree/main)
