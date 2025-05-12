@@ -156,6 +156,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Eclipse openMDM](https://openmdm.org/) - openMDM® 5 is a kit of components and concepts, which can be used to compose applications for measured data management systems.
   * [MDM|BL repo](https://gitlab.eclipse.org/eclipse/mdmbl)
 * [Eclipse Dataspace](https://dataspace.eclipse.org/) - provide a forum for individuals and organisations to build and promote open source software, specifications, and open collaboration models needed to create scalable, modular, extensible, industry-ready open source components based on open standards for dataspaces.
+* [Automotive Data Transformer](https://github.com/bosch-engineering/automotive_data_transformer_support) - `License: MIT` - The Automotive Data Transformer is a cloud-native measurement data processor to convert MDF files to Parquet, CSV or JSON formats, just with easy API requests.
 
 ## Development (Tools)
 
@@ -200,6 +201,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ## Open Hardware
 * [eProcessor](https://eprocessor.eu/) - European, extendable, energy-efficient, extreme-scale, extensible, Processor Ecosystem
 * [Eclipse Heimlig](https://github.com/eclipse-heimlig/heimlig) - `License: Apache-2.0, MIT` - Heimlig is a Hardware Security Module (HSM) firmware for embedded platforms written in Rust.
+* [Bosch Corner Radar Driver](https://github.com/bosch-engineering/corner_radar_driver) - `License: Apache-2.0` - This project provides ROS drivers for Bosch Corner Radar LGU sensors.  These packages are developed for ROS 2 Humble on Ubuntu 22.04.
+* [Bosch Off Highway Sensor Drivers](https://github.com/bosch-engineering/off_highway_sensor_drivers) - `License: Apache-2.0, MIT` - This project provides ROS drivers for Bosch Off-Highway sensor systems. The off_highway_sensor_drivers package is developed for ROS 2 Humble on Ubuntu 22.04.
 
 ## Other cool stuff (Maybe related to automotive)
 
