@@ -39,7 +39,8 @@ Content of this list:
 ### Software Defined Vehicle (SDV)
 * [Software Defined Vehicle Maps](https://github.com/quarterbit/SoftwareDefinedCarMap)
 * [SDV Guide](https://www.sdv.guide/) - The SDV Guide offers a comprehensive introduction to Software-Defined Vehicles (SDVs).
-* SDV definition - Eclipse SDV-LVL - under construction
+* [Eclipse SDV-LVL](https://github.com/eclipse-sdv-lvl/sdv-lvl) - `License: Creative Commons Attribution-ShareAlike 4.0 International` - Eclipse SDV-LVL (Eclipse Software-Defined Vehicle Levels of Value & Lifecycle) provides a vendor-neutral framework for assessing the maturity of software-defined vehicles.
+   * [Eclipse SDV-LVL documentation](eclipse-sdv-lvl.github.io/)
 * [SOAFEE](https://www.soafee.io/) - Scalable Open Architecture for Embedded Edge (SOAFEE)
   * [Architecture Specification](https://architecture.docs.soafee.io/en/latest/index.html)
   * [SOAFEE on GitLab](https://gitlab.com/soafee)
@@ -66,6 +67,8 @@ Content of this list:
 * [Eclipse BlueChi](https://github.com/eclipse-bluechi) - `License: LGPL-2.1-or-later` - Eclipse BlueChi is a deterministic multi-node service controller. BlueChi can manage the states of different services across multiple nodes with a focus on highly regulated industries, such as those requiring functional safety.
    * [Eclipse BlueChi documentation](https://bluechi.readthedocs.io/en/latest/)
 * [Eclipse Pullpiri](https://github.com/eclipse-pullpiri) - `License: Apache-2.0` - The main goal of Eclipse Pullpiri project is to develop an efficient vehicle service orchestrator framework to realize the potential benefits of cloud native technologies for in-vehicle services and...
+* [Eclipse Symphony](https://github.com/eclipse-symphony) - `License: MIT` - Project Symphony is an Eclipse Foundation open-source orchestration platform that simplifies workload management across diverse devices and service vendors. It integrates existing systems without modification, delivering a unified, consistent workflow for seamless operations.
+   * [Eclipse Symphony documentation](https://github.com/eclipse-symphony/symphony/tree/main/docs)
 
 ### Public funded projects
 * [FEDERATE](https://federate-sdv.eu/) - European Software-Defined Vehicle of the Future (SDVoF) Initiative
@@ -127,6 +130,11 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Eclipse p3com](https://github.com/eclipse-p3com/p3com) - `License: Apache-2.0` - Eclipse p3com - portable pluggable publish/subscribe communication
 * [Eclipse uProtocol](https://github.com/eclipse-uprotocol) - `License: Apache-2.0` - Eclipse uProtocol provides a transport agnostic, layered communication protocol that is deployment, OS, and device (vehicle, cloud, mobile phone, charging station, etc...) agnostic, leveraging well-known existing automotive and Internet standards. 
    * [Eclipse uProtocol documentation](https://uprotocol.org/)
+* [Eclipse Zenoh](https://github.com/eclipse-zenoh) - `License: Apache-2.0, EPL-2.0` - Zenoh (Zero Overhead Network Protocol) is a pub/sub/query protocol unifying data in motion, data at rest and computations.
+   * [Eclipse Zenoh documentation](https://zenoh.io/docs/overview/what-is-zenoh/)
+* [Eclipse Kanto](https://github.com/eclipse-kanto) - `License: Apache-2.0, EPL-2.0` - Eclipse Kanto is a modular IoT edge software stack for devices that enables them for AIoT with all the essentials - cloud connectivity and digital twins, local messaging, container management and software updates - all configurable and remotely manageable by an IoT cloud ecosystem of choice.
+   * [Eclipse Kanto documentation](https://eclipse.dev/kanto/)
+* [Eclipse CANought](https://github.com/eclipse-canought) - `License: Apache-2.0, EPL-2.0` - Eclipse CANought offers the automotive-specific capabilities to enhance the Eclipse Kanto project to offer a comprehensive solution focused on the automotive industry. Eclipse CANought provides extensions to the Eclipse Kanto project focused on automotive market segment capabilities by standardizing and securing CAN communications. 
 
 #### Communication Protocols
 * [Open1722](https://github.com/COVESA/Open1722) - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
