@@ -35,6 +35,9 @@ Content of this list:
 
 ### Automotive Applications
 * [Eclipse Ambient Light Services](https://gitlab.eclipse.org/eclipse/ambientlight/ambient-light-services) - Realizes a new interactive lighting concept
+* [ArduPilot](https://github.com/ArduPilot) - `License: mainly GPL-3.0, but also repos with LGPL-3.0, LGPL-2.1, GPL-2.0 MIT, Apache-2.0, BSD 3-Clause, EPL-1.0`  - ArduPilot is a trusted, versatile, and open source autopilot system supporting many vehicle types: multi-copters, traditional helicopters, fixed wing aircraft, boats, submarines, rovers and more.
+   * [Documentation ArduPilot](https://ardupilot.org/dev/index.html)
+   * [Website ArduPilot](https://ardupilot.org/)
 
 ### Software Defined Vehicle (SDV)
 * [Software Defined Vehicle Maps](https://github.com/quarterbit/SoftwareDefinedCarMap)
@@ -86,6 +89,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * https://github.com/speeduino/speeduino - Speeduino - An Arduino based engine management
 
 ### InVehicle Infotainment Development
+* [Study on Open Source In-Vehicle Infotainment (IVI) Software Platforms (2015)](https://odr.chalmers.se/server/api/core/bitstreams/fed5b418-2a21-4177-b0db-4f449bf5ac5c/content)
 * [PILOT Drive](https://hackaday.io/project/191356-pilot-drive-an-open-source-headunit) - an open source headunit - A free and open source software & hardware vehicle headunit
    * [PILOT Drive Documentation](https://pilot-drive.readthedocs.io/en/latest/)
    * [PILOT Drive Software](https://github.com/lamemakes/pilot-drive)
@@ -187,6 +191,9 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Eclipse Tractus-X](https://github.com/eclipse-tractusx) - `License: Apache-2.0` - The Eclipse Tractus-X™ project is the official open-source project in the Catena-X ecosystem under the umbrella of the Eclipse Foundation. The Catena-X Automotive Network e.V. promotes, sponsors, and coordinates the overlying requirements of the Eclipse Tractus-X Project. Catena-X is the first open and collaborative data ecosystem.
    * [Eclipse Tractus-X documentation](https://eclipse-tractusx.github.io/)
 
+### Security
+* [IAV quantumSAR](https://github.com/iavofficial/IAV_quantumSAR) - `License: Apache-2.0` - IAV quantumSAR is planned as an AUTOSAR Cryptodriver with a collection of post-quantum cryptographic algorithms for microcontroller presented by IAV GmbH.
+
 ## Development (Tools)
 
 ### Architecture and Design
@@ -204,12 +211,20 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Eclipse APP4MC](https://gitlab.eclipse.org/eclipse/app4mc) - `License: EPL-2.0` - Eclipse APP4MC is a platform for engineering embedded multi- and many-core software systems. The platform enables the creation and management of complex tool chains including simulation and validation. 
 * [Eclipse Velocitas](https://github.com/eclipse-velocitas) - `License: Apache-2.0` - Eclipse Velocitas provides a development toolchain to create containerized in-vehicle applications (Vehicle Apps) that offers a comfortable, fast and efficient development experience to increase the velocity of a development team. 
    * [Eclipse Velocitas documentation](https://eclipse.dev/velocitas/)
+* [Eclipse Automotive API Framework](https://gitlab.eclipse.org/eclipse/autoapiframework) - `License: Apache-2.0` - Decoupling of the application logic from the basic software stack enables automotive suppliers (no matter if Tier-1 or in-house teams at an OEM) to contribute with building blocks to Software-defined Vehicle (SDV) projects. The Eclipse Automotive API Framework provides a stable application-facing interface, thereby minimizing the prevalence of proprietary solutions throughout the automotive sector.
 
 ### Testing and Validation
 * [Eclipse openDuT](https://github.com/eclipse-opendut) - `License: Apache-2.0` - Eclipse openDuT automates the testing and validation process for automotive software and applications.
    * [Eclipse openDuT documentation](https://opendut.eclipse.dev/book/index.html)
 * [Eclipse OpenXilEnv](https://github.com/eclipse-openxilenv) - `License: Apache-2.0` - Eclipse OpenXilEnv is a lightweight SIL/HIL environment that allows running embedded software functions on a PC without a target platform and compiler.
 * [Eclipse SKyBT](https://gitlab.eclipse.org/eclipse/skybt) - `License: Apache-2.0` - Eclipse SKyBT (Smart Keyword Based Testing) - The core idea of Eclipse SKyBT: Based on our experience from numerous projects, the success factor of testing lies in the test design, everything else can and should be automated as much as possible.
+* [Vector SIL Kit](https://github.com/vectorgrp/sil-kit) - `License: MIT` - Vector SIL Kit – Open-Source Library for Connecting Software-in-the-Loop Environments
+   * [Documentation](https://vectorgrp.github.io/sil-kit-docs/)
+* [Open-CMSIS-Pack](https://github.com/Open-CMSIS-Pack) - `License: Apache-2.0` - The Open-CMSIS-Pack project offers a flexible and easy to use end to end development flow for embedded software - from project creation to software execution on real or virtual hardware.
+   * [Open-CMSIS-Pack Documentation](https://open-cmsis-pack.github.io/landing/)
+* [Scapy](https://github.com/secdev/scapy/) - `License: GPL-2.0` - Scapy is a powerful Python-based interactive packet manipulation program and library.
+   * [Scapy website](https://scapy.net/)
+   * [Scapy Documentation](https://scapy.readthedocs.io/en/latest/index.html)
 
 ### Simulation Tools
 * [SODA.Sim](https://github.com/soda-auto/soda-sim) - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
