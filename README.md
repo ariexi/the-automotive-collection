@@ -63,6 +63,12 @@ Content of this list:
 * [Eclipse Connected Services Platform](https://github.com/eclipse-ecsp) - `License: Apache-2.0` - Eclipse Connected Services Platform (CSP) offers a comprehensive platform with all the essential components needed by automotive OEMs to develop end-to-end connected vehicle software solutions
    * [Eclipse Connected Services Platform documentation](https://eclipse-ecsp.github.io/ecsp-website/)
 
+### Over the Air Updates
+* [eSync Alliance](https://esyncalliance.org/) - Standardizing Automotive OTA
+   * [eSync Alliance repos](https://github.com/esync-alliance) containing
+      * [eSync Yocto layer for EWAOL platform](https://github.com/esync-alliance/meta-ewaol-esync) - `License: venmdor specific`
+      * [Python Workload Agent to update k3s clusters for SOAFEE Framework ](https://github.com/esync-alliance/esync-wa) - `License: venmdor specific`
+
 ### Container, Software and Service Orchestration
 * [Eclipse Ankaios](https://github.com/eclipse-ankaios/ankaios) - `License: Apache-2.0` - Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing (HPC) software. 
    * [Eclipse Ankaios documentation](https://eclipse-ankaios.github.io/ankaios/latest/)
@@ -131,6 +137,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
    * [Eclipse eCAL documentation](https://eclipse-ecal.github.io/ecal/stable/index.html)
 * [Eclipse Ibeji](https://github.com/eclipse-ibeji) - `License: MIT` - Eclipse Ibeji aims to provide the capability to express a digital representation of the vehicle state and its capabilities through an extensible, open and dynamic architecture that provides access to the vehicle hardware, sensors and capabilities.
 * [Eclipse OpenBSW](https://github.com/eclipse-openbsw) - `License: Apache-2.0` - The project provides an embedded basic software (BSW) stack for microcontrollers written in C++ (language features up to C++14 are used)
+   * [Documentation OpenBSW](https://eclipse-openbsw.github.io/openbsw/sphinx_docs/doc/index.html#)
 * [Eclipse p3com](https://github.com/eclipse-p3com/p3com) - `License: Apache-2.0` - Eclipse p3com - portable pluggable publish/subscribe communication
 * [Eclipse uProtocol](https://github.com/eclipse-uprotocol) - `License: Apache-2.0` - Eclipse uProtocol provides a transport agnostic, layered communication protocol that is deployment, OS, and device (vehicle, cloud, mobile phone, charging station, etc...) agnostic, leveraging well-known existing automotive and Internet standards. 
    * [Eclipse uProtocol documentation](https://uprotocol.org/)
@@ -139,9 +146,20 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Eclipse Kanto](https://github.com/eclipse-kanto) - `License: Apache-2.0, EPL-2.0` - Eclipse Kanto is a modular IoT edge software stack for devices that enables them for AIoT with all the essentials - cloud connectivity and digital twins, local messaging, container management and software updates - all configurable and remotely manageable by an IoT cloud ecosystem of choice.
    * [Eclipse Kanto documentation](https://eclipse.dev/kanto/)
 * [Eclipse CANought](https://github.com/eclipse-canought) - `License: Apache-2.0, EPL-2.0` - Eclipse CANought offers the automotive-specific capabilities to enhance the Eclipse Kanto project to offer a comprehensive solution focused on the automotive industry. Eclipse CANought provides extensions to the Eclipse Kanto project focused on automotive market segment capabilities by standardizing and securing CAN communications. 
+* [Eclipse iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) - `License: Apache-2.0, MIT` - Zero-Copy Lock-Free IPC Purely Written In Rust
+   * [Eclipse iceoryx documentation](https://iceoryx.io/)
 
 #### Communication Protocols
 * [Open1722](https://github.com/COVESA/Open1722) - Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/video, tunneling CAN/LIN messages and enabling remote access to peripheral bus systems. 
+* [OpenXCP](https://github.com/shreaker/OpenXCP) - `License: MIT, GPL-2.0, GPL-3.0` - An open source XCP based measurement and calibration system for automotive ECUs
+* [XCPlite](https://github.com/vectorgrp/XCPlite) - `License: MIT` - XCPlite is a lightweight demo implementation of the ASAM XCP V1.4 standard protocol for measurement and calibration of electronic control units. The demo implementation uses Ethernet UDP or TCP communication on POSIX based or Windows Operating Systems. 
+* [DoIP](https://github.com/doip/doip) - `License: LGPL-3.0` - Diagnostics over IP
+* [DoIP-Lib](https://github.com/langroodi/DoIP-Lib) - `License: MIT` - This repository corresponds to the Diagnostics over Internet Protocol (DoIP) C++ library for serializing and deserializing DoIP payloads based on ISO 13400-2 standard.
+* [CanTp](https://github.com/Sauci/CanTp) - `License: BSD-3-Clause` - Implementation of the CanTp module (ISO 15765-2), according to AUTOSAR specification v4.4.0 
+* [CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds) - `License: EPL-2.0` - Eclipse Cyclone DDS is a very performant and robust open-source implementation of the OMG DDS specification. 
+* [vsomeip](https://github.com/COVESA/vsomeip) - `License: MPL-2.0` - vSomeIP - The vSomeIP stack implements the http://some-ip.com/ (Scalable service-Oriented MiddlewarE over IP (SOME/IP)) Protocol. 
+* [UDS-C](https://github.com/openxc/uds-c) -  `License: BSD-3-Clause` - Unified Diagnostic Services (UDS) Support Library in C - This is a platform agnostic C library that implements the Unified Diagnostics Services protocol for automotive electronics. UDS is documented in ISO 14229 and is the underpinning for the more well-known On-board Diagnostics (OBD) standard. The library currently supports UDS running over CAN (ISO 15765-4), which uses the ISO-TP (ISO 15765-2) protocol for message framing.
+* [OpenSOVD](https://projects.eclipse.org/proposals/eclipse-opensovd) - proposed project
 
 ### Operating Systems
 * [L4Re](https://github.com/kernkonzept/manifest) - The L4Re Runtime Environment is an operating system framework for building systems with real-time, security, safety and virtualization requirements.
@@ -190,6 +208,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Automotive Data Transformer](https://github.com/bosch-engineering/automotive_data_transformer_support) - `License: MIT` - The Automotive Data Transformer is a cloud-native measurement data processor to convert MDF files to Parquet, CSV or JSON formats, just with easy API requests.
 * [Eclipse Tractus-X](https://github.com/eclipse-tractusx) - `License: Apache-2.0` - The Eclipse Tractus-X™ project is the official open-source project in the Catena-X ecosystem under the umbrella of the Eclipse Foundation. The Catena-X Automotive Network e.V. promotes, sponsors, and coordinates the overlying requirements of the Eclipse Tractus-X Project. Catena-X is the first open and collaborative data ecosystem.
    * [Eclipse Tractus-X documentation](https://eclipse-tractusx.github.io/)
+* [YANG modules](https://github.com/YangModels/yang) - `License: EPL-1.0, IEEE, IETF Trust, Broadband Forum, Vendor specific` - Yet Another Next Generation (YANG) is a data modeling language for the definition of data sent over network management protocols such as the NETCONF and RESTCONF. Developed and maintained by the NETMOD working group in the Internet Engineering Task Force (IETF), YANG was initially published as RFC 6020 in October 2010, with a significant update to version 1.1 in August 2016 (RFC 7950). 
 
 ### Security
 * [IAV quantumSAR](https://github.com/iavofficial/IAV_quantumSAR) - `License: Apache-2.0` - IAV quantumSAR is planned as an AUTOSAR Cryptodriver with a collection of post-quantum cryptographic algorithms for microcontroller presented by IAV GmbH.
