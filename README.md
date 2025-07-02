@@ -129,6 +129,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### EV charging
 * [EVerest](https://everest.github.io/nightly/) is an open source modular framework for setting up a full stack environment for EV charging.
+   * [EVerest documentation](https://lfenergy.org/projects/everest/)
 * [evcc](https://github.com/evcc-io/evcc) is an extensible EV Charge Controller and home energy management system.
 
 ### Base Software, Middleware and Communication Protocols
