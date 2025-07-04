@@ -129,6 +129,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### EV charging
 * [EVerest](https://everest.github.io/nightly/) is an open source modular framework for setting up a full stack environment for EV charging.
+   * [EVerest documentation](https://lfenergy.org/projects/everest/)
 * [evcc](https://github.com/evcc-io/evcc) is an extensible EV Charge Controller and home energy management system.
 
 ### Base Software, Middleware and Communication Protocols
@@ -264,6 +265,16 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Eclipse SDV Developer Console](https://gitlab.eclipse.org/eclipse/dco/developer-console) - `License: Apache-2.0` - Eclipse SDV Developer Console (DCO) integrates necessary sources for software lifecycle management and there by optimizes the complete process from development to release of software.
 * [Eclipse SUMO](https://github.com/eclipse-sumo) - `License: EPL-2.0, GPL-2.0-or-later` - Eclipse Simulation of Urban Mobility (Eclipse SUMO™) is a free and open traffic simulation toolsuite.
    * [Eclipse SUMO documentation](https://eclipse.dev/sumo/)
+* [esmini](https://github.com/esmini/) - `License: MPL2.0` - Environment Simulator Minimalistic (esmini) - esmini is a basic OpenSCENARIO XML player
+* [ASAM OpenSCENARIO® XML](https://www.asam.net/standards/detail/openscenario-xml/) - ASAM OpenSCENARIO XML defines a file format for the description of the dynamic content of driving and traffic simulators.
+* [ASAM OpenSCENARIO® DSL](https://www.asam.net/standards/detail/openscenario-dsl/) - To verify the safety and the correct functionality of an autonomous vehicle (AV) or an advanced driver assistance system (ADAS), it is necessary to observe its behavior in various evolving situations that involve multiple entities like vehicles, pedestrians and other traffic participants.
+* [ASAM OpenDRIVE®](https://www.asam.net/standards/detail/opendrive/) - The ASAM OpenDRIVE format provides a common base for describing road networks with extensible markup language (XML) syntax, using the file extension xodr. 
+* [ASAM OpenCRG®](https://www.asam.net/standards/detail/opencrg/) - ASAM OpenCRG defines a file format for the description of road surfaces.
+* [ASAM OpenODD®](https://www.asam.net/standards/detail/openodd/) - ASAM OpenODD specifies a modeling approach and exchange formats to specify and describe operational design domains (ODD) for automated driving systems.
+* [ASAM OpenMATERIAL® 3D](https://www.asam.net/standards/detail/openmaterial/) - The ASAM OpenMATERIAL 3D standard defines physical material properties and standardizes 3D model structures for more accurate simulations. 
+* [ASAM OSI®](https://www.asam.net/standards/detail/osi/) - ASAM OSI (Open Simulation Interface) provides easy and straightforward compatibility between automated driving functions and the variety of driving simulation frameworks available.
+* [QEmu](https://gitlab.com/qemu-project/qemu) - `License: LGPL-2.1` - A generic and open source machine emulator and virtualizer
+   * [QEmu documentation](https://www.qemu.org/)
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
