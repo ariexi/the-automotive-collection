@@ -187,6 +187,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [micro ROS](https://micro.ros.org/)
 * [OpenAMP](https://github.com/OpenAMP/open-amp) - `License: BSD-3-Clause. BSD-2-Clause, Apache-2.0, GPL-2.0` - The main OpenAMP library implementing RPMSG, Virtio, and Remoteproc for RTOS etc.
    * [OpenAMP documentation](https://openamp.readthedocs.io/en/latest/index.html)
+* [Hubris](https://github.com/oxidecomputer/hubris) - `License: MPL-2.0` - Hubris is a microcontroller operating environment designed for deeply-embedded systems with reliability requirements. Its design was initially proposed in RFD41, but has evolved considerably since then.
+   * [Hubris documentation](https://hubris.oxide.computer/reference/)
 
 ### Distributions
 * [Eclipse Leda](https://github.com/eclipse-leda) - `License: Apache-2.0` - The Eclipse Leda project will provide system image “recipes” to deliver a functional Linux-based image/distribution in the context of SDV (Software Defined Vehicle), by pulling together individual contributons from the SDV and the larger OSS community.
