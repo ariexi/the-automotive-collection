@@ -160,7 +160,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds) - `License: EPL-2.0` - Eclipse Cyclone DDS is a very performant and robust open-source implementation of the OMG DDS specification. 
 * [vsomeip](https://github.com/COVESA/vsomeip) - `License: MPL-2.0` - vSomeIP - The vSomeIP stack implements the http://some-ip.com/ (Scalable service-Oriented MiddlewarE over IP (SOME/IP)) Protocol. 
 * [UDS-C](https://github.com/openxc/uds-c) -  `License: BSD-3-Clause` - Unified Diagnostic Services (UDS) Support Library in C - This is a platform agnostic C library that implements the Unified Diagnostics Services protocol for automotive electronics. UDS is documented in ISO 14229 and is the underpinning for the more well-known On-board Diagnostics (OBD) standard. The library currently supports UDS running over CAN (ISO 15765-4), which uses the ISO-TP (ISO 15765-2) protocol for message framing.
-* [OpenSOVD](https://projects.eclipse.org/proposals/eclipse-opensovd) - proposed project
+* [Eclipse OpenSOVD](https://github.com/eclipse-opensovd) - `License: Apache-2.0` - This Github organization contains artifacts developed by the Eclipse OpenSOVD Project.
 
 ### Operating Systems
 * [L4Re](https://github.com/kernkonzept/manifest) - The L4Re Runtime Environment is an operating system framework for building systems with real-time, security, safety and virtualization requirements.
@@ -187,6 +187,9 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [micro ROS](https://micro.ros.org/)
 * [OpenAMP](https://github.com/OpenAMP/open-amp) - `License: BSD-3-Clause. BSD-2-Clause, Apache-2.0, GPL-2.0` - The main OpenAMP library implementing RPMSG, Virtio, and Remoteproc for RTOS etc.
    * [OpenAMP documentation](https://openamp.readthedocs.io/en/latest/index.html)
+* [Hubris](https://github.com/oxidecomputer/hubris) - `License: MPL-2.0` - Hubris is a microcontroller operating environment designed for deeply-embedded systems with reliability requirements. Its design was initially proposed in RFD41, but has evolved considerably since then.
+   * [Hubris documentation](https://hubris.oxide.computer/reference/)
+ * [Tock](https://github.com/tock/tock) - `License: Apache-2.0, MIT` - Tock is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. 
 
 ### Distributions
 * [Eclipse Leda](https://github.com/eclipse-leda) - `License: Apache-2.0` - The Eclipse Leda project will provide system image “recipes” to deliver a functional Linux-based image/distribution in the context of SDV (Software Defined Vehicle), by pulling together individual contributons from the SDV and the larger OSS community.
@@ -198,6 +201,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### Interfaces and APIs
 * [COVESA](https://github.com/COVESA) - Connected Vehicle Systems Alliance 
+  * [Interface Exchange Framework (IFEX) Viewer](https://github.com/COVESA/ifex-viewer/) - `License: Apache-2.0` - The IFEX Viewer is a web component designed to display API specifications created with the Interface Exchange Framework (IFEX) and is capable of rendering all elements specified in the IFEX Core IDL.
 * [Eclipse Kuksa](https://github.com/eclipse-kuksa) - `License: Apache-2.0` - The open Eclipse KUKSA™ project aims to provide shared building blocks for the Software Defined Vehicles that can be shared across the industry.
    * [Eclipse Kuksa documentation](https://eclipse-kuksa.github.io/kuksa-website/)
    * [Eclipse Kuksa.val](https://github.com/eclipse-archived/kuksa.val) - `License: Apache-2.0` - archived
@@ -275,6 +279,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [ASAM OSI®](https://www.asam.net/standards/detail/osi/) - ASAM OSI (Open Simulation Interface) provides easy and straightforward compatibility between automated driving functions and the variety of driving simulation frameworks available.
 * [QEmu](https://gitlab.com/qemu-project/qemu) - `License: LGPL-2.1` - A generic and open source machine emulator and virtualizer
    * [QEmu documentation](https://www.qemu.org/)
+ * [OpenRoadSim](https://github.com/karthagokul/openroadsim/) - `License: MIT` - OpenRoadSim is a proposed open-source simulation framework for integrated validation of automotive infotainment systems and signal-level domains. Built for accessibility and extensibility, OpenRoadSim enables developers to simulate and test complex, cross-domain vehicle interactions—including GPS, CAN bus, media playback, ADAS, and voice interaction—on standard laptops.
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
@@ -301,6 +306,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### Operating Systems
 * [MS-DOS ;-)](https://github.com/microsoft/MS-DOS/tree/main)
+* [Windows Subsystem for Linux (WSL)](https://github.com/microsoft/WSL)
 
 ### Artificial Intelligence (AI)
 * [THE OPEN SOURCE AI DEFINITION 1.0](https://opensource.org/ai)
@@ -311,6 +317,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [BigCode](https://www.bigcode-project.org/docs/about/mission/) is an open scientific collaboration working on the responsible development and use of large language models for code (Code LLMs), empowering the machine learning and open source communities through open governance.
 * [STUART Chatbot](https://github.com/noi-techpark/stuart-chatbot) - Super Talkative Understanding Artificial Response Technology
 * [DeepSeek AI (Attention! due to latest security issues)](https://github.com/deepseek-ai)
+* [GitPodcast](https://github.com/BandarLabs/gitpodcast) - `License: MIT` - Turn any GitHub repository into an engaging podcast in seconds. You can just replace `hub` with `podcast` in any Github URL to access its podcast.
 
 ### Projects from Hackathons
 * [Eclipse SDV Hackathon Chapter Two](https://github.com/Eclipse-SDV-Hackathon-Chapter-Two)
@@ -363,3 +370,7 @@ The first sections deals with tool around development, like:
 * Marketing automation tools
 * Team communication services
 * ... and a lot more
+
+### Open Maps for Energy Grid
+* [Open Infrastructure Map](https://openinframap.org/#2/26/12) - Open Infrastructure Map is a view of the world's infrastructure mapped in the OpenStreetMap database.
+* [MapYourGrid](https://mapyourgrid.org/) - Help Map the World's Electricity Grids to Power a Fossil-Free Future
