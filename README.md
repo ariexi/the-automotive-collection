@@ -202,6 +202,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ### Interfaces and APIs
 * [COVESA](https://github.com/COVESA) - Connected Vehicle Systems Alliance 
   * [Interface Exchange Framework (IFEX) Viewer](https://github.com/COVESA/ifex-viewer/) - `License: Apache-2.0` - The IFEX Viewer is a web component designed to display API specifications created with the Interface Exchange Framework (IFEX) and is capable of rendering all elements specified in the IFEX Core IDL.
+* [Swagger](https://swagger.io/) - Simplify your API development with our open‑source and professional tools, built to help you and your team efficiently design and document APIs at scale. 
 * [Eclipse Kuksa](https://github.com/eclipse-kuksa) - `License: Apache-2.0` - The open Eclipse KUKSA™ project aims to provide shared building blocks for the Software Defined Vehicles that can be shared across the industry.
    * [Eclipse Kuksa documentation](https://eclipse-kuksa.github.io/kuksa-website/)
    * [Eclipse Kuksa.val](https://github.com/eclipse-archived/kuksa.val) - `License: Apache-2.0` - archived
@@ -280,6 +281,8 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [QEmu](https://gitlab.com/qemu-project/qemu) - `License: LGPL-2.1` - A generic and open source machine emulator and virtualizer
    * [QEmu documentation](https://www.qemu.org/)
  * [OpenRoadSim](https://github.com/karthagokul/openroadsim/) - `License: MIT` - OpenRoadSim is a proposed open-source simulation framework for integrated validation of automotive infotainment systems and signal-level domains. Built for accessibility and extensibility, OpenRoadSim enables developers to simulate and test complex, cross-domain vehicle interactions—including GPS, CAN bus, media playback, ADAS, and voice interaction—on standard laptops.
+ * [Dynamic Simulation Environment](https://github.com/boschglobal?q=dse&type=all) - `License: Apache-2.0` - The Dynamic Simulation Environment is a message based distributed simulation platform which defines the interface between models as signal vectors. Signal vectors are a logical grouping of either scalar or binary data which are exchanged between models at discrete points in time. Models may be developed in any programming language and may run on any operating system or hardware platform.
+    * [Documentation](https://boschglobal.github.io/dse.doc/)
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
