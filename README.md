@@ -132,6 +132,10 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
    * [EVerest documentation](https://lfenergy.org/projects/everest/)
 * [evcc](https://github.com/evcc-io/evcc) is an extensible EV Charge Controller and home energy management system.
 
+### Energy Management
+* [Open Energy Management System](https://github.com/OpenEMS/openems) - `License: EPL-2.0, AGPL-3.0` - OpenEMS - the Open Source Energy Management System - is a modular platform for energy management applications. It was developed around the requirements of monitoring, controlling, and integrating energy storage together with renewable energy sources and complementary devices and services like electric vehicle charging stations, heat-pumps, electrolysers, time-of-use electricity tariffs and more.
+  * [Documentation](https://openems.github.io/openems.io/openems/latest/introduction.html)
+
 ### Base Software, Middleware and Communication Protocols
 * [Eclipse Chariott](https://github.com/eclipse-chariott) - `License: MIT` - The Eclipse Chariott project aims to simplify and enhance in-vehicle software developer productivity by providing a metadata-driven middleware/abstraction layer that allows modern application programming models to target in-vehicle functions through a digital representation of vehicle state and capabilities and provides an extensible and dynamic architecture to access the vehicle hardware and sensors.
 * [Eclipse eCAL](https://github.com/eclipse-ecal) - `License: Apache-2.0` - Eclipse eCAL (enhanced Communication Abstraction Layer) is a fast publish-subscribe middleware that can manage inter-process data exchange, as well as inter-host communication.
@@ -158,6 +162,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [DoIP-Lib](https://github.com/langroodi/DoIP-Lib) - `License: MIT` - This repository corresponds to the Diagnostics over Internet Protocol (DoIP) C++ library for serializing and deserializing DoIP payloads based on ISO 13400-2 standard.
 * [CanTp](https://github.com/Sauci/CanTp) - `License: BSD-3-Clause` - Implementation of the CanTp module (ISO 15765-2), according to AUTOSAR specification v4.4.0 
 * [CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds) - `License: EPL-2.0` - Eclipse Cyclone DDS is a very performant and robust open-source implementation of the OMG DDS specification. 
+* [DustDDS](https://github.com/s2e-systems/dust-dds) - `License: Apache-2.0` - Dust DDS is a native Rust implementation of the Data Distribution Services (DDS) using the Real-time Publisher-Subscriber (RTPS) wire protocol developed by S2E Software Systems.
 * [vsomeip](https://github.com/COVESA/vsomeip) - `License: MPL-2.0` - vSomeIP - The vSomeIP stack implements the http://some-ip.com/ (Scalable service-Oriented MiddlewarE over IP (SOME/IP)) Protocol. 
 * [UDS-C](https://github.com/openxc/uds-c) -  `License: BSD-3-Clause` - Unified Diagnostic Services (UDS) Support Library in C - This is a platform agnostic C library that implements the Unified Diagnostics Services protocol for automotive electronics. UDS is documented in ISO 14229 and is the underpinning for the more well-known On-board Diagnostics (OBD) standard. The library currently supports UDS running over CAN (ISO 15765-4), which uses the ISO-TP (ISO 15765-2) protocol for message framing.
 * [Eclipse OpenSOVD](https://github.com/eclipse-opensovd) - `License: Apache-2.0` - This Github organization contains artifacts developed by the Eclipse OpenSOVD Project.
@@ -189,7 +194,9 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
    * [OpenAMP documentation](https://openamp.readthedocs.io/en/latest/index.html)
 * [Hubris](https://github.com/oxidecomputer/hubris) - `License: MPL-2.0` - Hubris is a microcontroller operating environment designed for deeply-embedded systems with reliability requirements. Its design was initially proposed in RFD41, but has evolved considerably since then.
    * [Hubris documentation](https://hubris.oxide.computer/reference/)
- * [Tock](https://github.com/tock/tock) - `License: Apache-2.0, MIT` - Tock is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. 
+* [Tock](https://github.com/tock/tock) - `License: Apache-2.0, MIT` - Tock is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. 
+* [Veecle OS](https://github.com/veecle/veecle-os) - `License: Apache-2.0` - Veecle OS is a programming framework that enables developers to write software for low-power embedded devices and high-powered systems alike. Veecle OS uses features from the Rust programming language to help software developers avoid common complexities.
+  * [Veecle OS documentation](https://veecle.github.io/veecle-os/user-manual/introduction.html)
 
 ### Distributions
 * [Eclipse Leda](https://github.com/eclipse-leda) - `License: Apache-2.0` - The Eclipse Leda project will provide system image “recipes” to deliver a functional Linux-based image/distribution in the context of SDV (Software Defined Vehicle), by pulling together individual contributons from the SDV and the larger OSS community.
