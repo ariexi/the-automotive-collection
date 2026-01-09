@@ -1,3 +1,11 @@
+[![GitHub stars](https://badgen.net/github/stars/ariexi/the-automotive-collection)](https://github.com/ariexi/the-automotive-collection/stargazers/)
+[![GitHub forks](https://badgen.net/github/forks/ariexi/the-automotive-collection)](https://GitHub.com/ariexi/the-automotive-collection/network/)
+[![GitHub watchers](https://badgen.net/github/watchers/ariexi/the-automotive-collection/)](https://GitHub.com/ariexi/the-automotive-collection/watchers/)
+[![GitHub contributors](https://badgen.net/github/contributors/ariexi/the-automotive-collection)](https://GitHub.com/ariexi/the-automotive-collection/graphs/contributors/)
+[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/ariexi/the-automotive-collection)](https://github.com/ariexi/the-automotive-collection/pulls?q=is%3Amerged)
+[![GitHub latest commit](https://badgen.net/github/last-commit/ariexi/the-automotive-collection)](https://GitHub.com/ariexi/the-automotive-collection/commit/)
+---
+
 # The Automotive Collection
 A collection of automotive OSS projects which may help you in the automotive context!
 
@@ -112,6 +120,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ### Autonomous driving
 * [Autoware](https://github.com/autowarefoundation/autoware) - the world's leading open-source software project for autonomous driving
   * [Open AD Kit Documentation](https://autowarefoundation.github.io/open-ad-kit-docs/latest/version-2.0/)
+  * [Open AD Kit](https://github.com/autowarefoundation/openadkit) - `License: Apache-2.0` - Open AD Kit aims to democratize autonomous drive (AD) systems by bringing the cloud and edge closer together. In doing so, Open AD Kit will lower the threshold for developing and deploying the Autoware software stack by providing an efficient and modernized CI-CD approach.
   * [Autoware reference design](https://gitlab.com/autowarefoundation/autoware_reference_design/-/blob/main/docs/index.md)
 * [AutoCore](https://autocore.ai/index.html) - AutoCore is one of the world’s leading high-performance, intelligent mobility software and automotive electrical and electronic architecture (EEA) solution providers. The company focuses on automotive middleware, tailored for different EEA computing platforms of next-generation vehicles. 
 * [Eclipse Automated Driving Open Research (ADORe)](https://github.com/eclipse-adore/adore) - `License: EPL-2.0` - Eclipse ADORe provides a modular software library and toolkit for decision making, planning, control and simulation of automated vehicles
@@ -161,10 +170,12 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [DoIP](https://github.com/doip/doip) - `License: LGPL-3.0` - Diagnostics over IP
 * [DoIP-Lib](https://github.com/langroodi/DoIP-Lib) - `License: MIT` - This repository corresponds to the Diagnostics over Internet Protocol (DoIP) C++ library for serializing and deserializing DoIP payloads based on ISO 13400-2 standard.
 * [CanTp](https://github.com/Sauci/CanTp) - `License: BSD-3-Clause` - Implementation of the CanTp module (ISO 15765-2), according to AUTOSAR specification v4.4.0 
+* [Awesome CAN Bus](https://github.com/iDoka/awesome-canbus) - This curated list helps a reverse engineering CAN bus devices with lightly specializing in automotive embedded controller software and communication understanding.
 * [CycloneDDS](https://github.com/eclipse-cyclonedds/cyclonedds) - `License: EPL-2.0` - Eclipse Cyclone DDS is a very performant and robust open-source implementation of the OMG DDS specification. 
 * [DustDDS](https://github.com/s2e-systems/dust-dds) - `License: Apache-2.0` - Dust DDS is a native Rust implementation of the Data Distribution Services (DDS) using the Real-time Publisher-Subscriber (RTPS) wire protocol developed by S2E Software Systems.
 * [vsomeip](https://github.com/COVESA/vsomeip) - `License: MPL-2.0` - vSomeIP - The vSomeIP stack implements the http://some-ip.com/ (Scalable service-Oriented MiddlewarE over IP (SOME/IP)) Protocol. 
 * [Open SOME/IP Specification](https://github.com/some-ip-com/open-someip-spec) - `License: Community Specification License 1.0` - The Open SOME/IP Specification enables Open-Source SOME/IP implementations as well as defining a central specification anchor for different SOME/IP standards.
+   * [SOME/IP Stack](https://github.com/vtz/opensomeip) - `License: Apache-2.0` - An implementation of the Scalable service-Oriented MiddlewarE over IP (SOME/IP) protocol for automotive and embedded systems. Safety alignment work is ongoing; no safety certification is claimed.
 * [UDS-C](https://github.com/openxc/uds-c) -  `License: BSD-3-Clause` - Unified Diagnostic Services (UDS) Support Library in C - This is a platform agnostic C library that implements the Unified Diagnostics Services protocol for automotive electronics. UDS is documented in ISO 14229 and is the underpinning for the more well-known On-board Diagnostics (OBD) standard. The library currently supports UDS running over CAN (ISO 15765-4), which uses the ISO-TP (ISO 15765-2) protocol for message framing.
 * [Eclipse OpenSOVD](https://github.com/eclipse-opensovd) - `License: Apache-2.0` - This Github organization contains artifacts developed by the Eclipse OpenSOVD Project.
 
@@ -314,6 +325,9 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 ## Other cool stuff (Maybe related to automotive)
 
 ### [Software Heritage](https://archive.softwareheritage.org/browse/search/) - We are building the universal software archive
+
+### [OpenChain](https://openchainproject.org/) - Our vision is a supply chain where open source is delivered with trusted and consistent process management information.
+* [OpenChain and Friends 2026](https://openchainproject.org/news/2025/12/09/openchain-and-friends-2026) - An Open Source Management and Community Event
 
 ### Operating Systems
 * [MS-DOS ;-)](https://github.com/microsoft/MS-DOS/tree/main)
