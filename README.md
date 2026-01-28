@@ -36,6 +36,7 @@ Content of this list:
 * [Github OSPO](https://github.com/github/github-ospo) - Helping open source program offices (OSPOs) get started
 
 ## Automotive Software
+* [Automotive Grade Linux](https://www.automotivelinux.org) - Automotive Grade Linux is a collaborative open source project that is bringing together automakers, suppliers and technology companies to accelerate the development and adoption of a fully open software stack for the connected car. The Unified Codebase (AGL UCB) provides an excellent starting point for OEMs, Tier-1's and suppliers to build and collaborate upon. All as Open Source.
 * [CodeLinaro](https://git.codelinaro.org/clo) - a lot of different automotive (I guess) related repos
   * e.g., [Project la](https://git.codelinaro.org/groups/clo/la) - This project allows users to build an Android based platform containing additional enhancements for Qualcomm chipsets. The platform uses Google’s Android Linux implementation and tools.
 * [qcacld-2.0 for Qualcomm WIFI module](https://github.com/TechNexion/qcacld-2.0) - Maybe usable, but has to be checked - The qcacld-2.0 is Qualcomm WIFI module out-of-tree driver.
@@ -46,6 +47,20 @@ Content of this list:
 * [ArduPilot](https://github.com/ArduPilot) - `License: mainly GPL-3.0, but also repos with LGPL-3.0, LGPL-2.1, GPL-2.0 MIT, Apache-2.0, BSD 3-Clause, EPL-1.0`  - ArduPilot is a trusted, versatile, and open source autopilot system supporting many vehicle types: multi-copters, traditional helicopters, fixed wing aircraft, boats, submarines, rovers and more.
    * [Documentation ArduPilot](https://ardupilot.org/dev/index.html)
    * [Website ArduPilot](https://ardupilot.org/)
+* [ROS2](https://www.ros.org) - The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project. And it's all open source. [Automotive Grade Linux](https://www.automotivelinux.org/) has an integration for ros2 available as part of its Unified Code Base (AGL UCB) where [meta-ros](https://github.com/ros/meta-ros/) can be selected.
+
+### Libraries ###
+
+* [wayland](https://wayland.freedesktop.org/) - Wayland is a replacement for the X11 window system protocol and architecture with the aim to be easier to develop, extend, and maintain.
+* [weston](https://gitlab.freedesktop.org/wayland/weston) - Weston is a Wayland compositor designed for correctness, reliability, predictability, and performance. It is tailored for desktop use cases.
+* [agl-compositor](https://git.automotivelinux.org/src/agl-compositor/) - The AGL Compositor is a core component in [Automotive Grade Linux](https://www.automotivelinux.org) that manages the graphical user interface (GUI) rendering for in-vehicle displays, using Wayland and libweston to efficiently display and organize application windows. By streamlining the graphical stack and supporting custom protocol extensions, it enables car manufacturers (OEMs) to efficiently create differentiated, high-performance, and secure user experiences tailored to their specific needs and hardware platforms
+* [pipewire](https://www.pipewire.org/) - PipeWire is a project that aims to greatly improve handling of audio and video under Linux. It provides a low-latency, graph-based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both PulseAudio and JACK. It has been adopted by major Linux distributions and is also part of AGL from the beginning.
+* [wireplumber](https://pipewire.pages.freedesktop.org/wireplumber/) - Wireplumber is a powerful session and policy manager for PipeWire. Originally started as part of [Automotive Grade Linux](https://www.automotivelinux.org) as session and policy manager with automotive use cases in mind, it quickly became _the_ default solution in use by meanwhile all major Linux distributions. For automotive this means 'batteries included' if using upstream pipewire+wireplumber.
+
+### UI Frameworks ###
+* Qt -
+* HTML5 -
+* Flutter -
 
 ### Software Defined Vehicle (SDV)
 * [Software Defined Vehicle Maps](https://github.com/quarterbit/SoftwareDefinedCarMap)
@@ -56,6 +71,7 @@ Content of this list:
   * [Architecture Specification](https://architecture.docs.soafee.io/en/latest/index.html)
   * [SOAFEE on GitLab](https://gitlab.com/soafee)
   * [EWAOL](https://gitlab.com/soafee/ewaol/meta-ewaol) - Edge Workload Abstraction and Orchestration Layer
+  * [AGL SoDeV](https://lf-automotivelinux.atlassian.net/wiki/spaces/VE/pages/602996743/AGL+SDV+Reference+Platfrom+-+SoDeV) - The AGL SoDeV reference platform supports ECU consolidation, virtualization, hardware abstraction and cloud integration for next-generation vehicles.
 * [Automotive Processes for Open Source SW SIG](https://eclipse-automotive-processes.readthedocs.io/en/latest/)
 * [digital.auto](https://www.digital.auto/)
   * [digital.auto playground](https://playground.digital.auto/)
@@ -66,6 +82,7 @@ Content of this list:
 * [Eclipse SDV Blueprints](https://github.com/eclipse-sdv-blueprints)
 * [Eclipse Safe Open Vehicle Core (S-CORE)](https://github.com/eclipse-score) - `License: Apache-2.0` - The Eclipse Safe Open Vehicle Core project aims to develop an open-source core stack for Software Defined Vehicles (SDVs), specifically targeting embedded high-performance Electronic Control Units (ECUs).
    * [Eclipse S-CORE documentation](https://eclipse-score.github.io/)
+* [Automotive Grade Linux](https://www.automotivelinux.org) - Automotive Grade Linux is a collaborative open source project that is bringing together automakers, suppliers and technology companies to accelerate the development and adoption of a fully open software stack for the connected car.
 
 ### Connected Vehicle and Services
 * [Eclipse Connected Services Platform](https://github.com/eclipse-ecsp) - `License: Apache-2.0` - Eclipse Connected Services Platform (CSP) offers a comprehensive platform with all the essential components needed by automotive OEMs to develop end-to-end connected vehicle software solutions
@@ -76,6 +93,9 @@ Content of this list:
    * [eSync Alliance repos](https://github.com/esync-alliance) containing
       * [eSync Yocto layer for EWAOL platform](https://github.com/esync-alliance/meta-ewaol-esync) - `License: venmdor specific`
       * [Python Workload Agent to update k3s clusters for SOAFEE Framework ](https://github.com/esync-alliance/esync-wa) - `License: venmdor specific`
+* **rauc**
+* **mender**
+* **ostree**
 
 ### Container, Software and Service Orchestration
 * [Eclipse Ankaios](https://github.com/eclipse-ankaios/ankaios) - `License: Apache-2.0` - Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing (HPC) software. 
@@ -86,6 +106,7 @@ Content of this list:
 * [Eclipse Pullpiri](https://github.com/eclipse-pullpiri) - `License: Apache-2.0` - The main goal of Eclipse Pullpiri project is to develop an efficient vehicle service orchestrator framework to realize the potential benefits of cloud native technologies for in-vehicle services and...
 * [Eclipse Symphony](https://github.com/eclipse-symphony) - `License: MIT` - Project Symphony is an Eclipse Foundation open-source orchestration platform that simplifies workload management across diverse devices and service vendors. It integrates existing systems without modification, delivering a unified, consistent workflow for seamless operations.
    * [Eclipse Symphony documentation](https://github.com/eclipse-symphony/symphony/tree/main/docs)
+* **AGL drm-lease-manager - Usage of containers faces issues when multiple containers need to drive displays. drm-lease-manager lets you assign and manage displays to individual containers.**
 
 ### Public funded projects
 * [FEDERATE](https://federate-sdv.eu/) - European Software-Defined Vehicle of the Future (SDVoF) Initiative
@@ -104,6 +125,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 
 ### InVehicle Infotainment Development
 * [Study on Open Source In-Vehicle Infotainment (IVI) Software Platforms (2015)](https://odr.chalmers.se/server/api/core/bitstreams/fed5b418-2a21-4177-b0db-4f449bf5ac5c/content)
+* [Automotive Grade Linux](https://www.automotivelinux.org) - Automotive Grade Linux is a collaborative open source project that is bringing together automakers, suppliers and technology companies to accelerate the development and adoption of a fully open software stack for the connected car.
 * [PILOT Drive](https://hackaday.io/project/191356-pilot-drive-an-open-source-headunit) - an open source headunit - A free and open source software & hardware vehicle headunit
    * [PILOT Drive Documentation](https://pilot-drive.readthedocs.io/en/latest/)
    * [PILOT Drive Software](https://github.com/lamemakes/pilot-drive)
@@ -127,6 +149,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
    * [Eclipse ADORe documentation](eclipse.github.io/adore/)
 * [Eclipse muto](https://github.com/eclipse-muto) - `License: EPL-2.0` - Eclipse Muto provides an adaptive framework and a runtime platform for dynamically composable model-driven ROS software stacks on autonomous vehicles and robots in general. 
    * [Eclipse muto documentation](https://eclipse-muto.github.io/docs/docs)
+* [ROS2](https://www.ros.org) - The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project. And it's all open source. [Automotive Grade Linux](https://www.automotivelinux.org/) has an integration for ros2 available as part of its Unified Code Base (AGL UCB) where [meta-ros](https://github.com/ros/meta-ros/) can be selected.
   
 ### Battery Management System
 * [Battery Management System (by LibreSolar)](https://enaccess.org/materials/battery-management-system/) - Save time and money by using an Open Source Battery Management System (BMS), suitable for various applications.
@@ -211,6 +234,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
   * [Veecle OS documentation](https://veecle.github.io/veecle-os/user-manual/introduction.html)
 
 ### Distributions
+* [Automotive Grade Linux UCB](https://www.automotivelinux.org) - Automotive Grade Linux is a collaborative open source project that is bringing together automakers, suppliers and technology companies to accelerate the development and adoption of a fully open software stack for the connected car. The Unified Codebase (AGL UCB) provides an excellent starting point for OEMs, Tier-1's and suppliers to build and collaborate upon. All as Open Source.
 * [Eclipse Leda](https://github.com/eclipse-leda) - `License: Apache-2.0` - The Eclipse Leda project will provide system image “recipes” to deliver a functional Linux-based image/distribution in the context of SDV (Software Defined Vehicle), by pulling together individual contributons from the SDV and the larger OSS community.
    * [Eclipse Leda documentation](https://eclipse-leda.github.io/leda/)
    * Eclipse Leda Incubator
@@ -269,7 +293,10 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Scapy](https://github.com/secdev/scapy/) - `License: GPL-2.0` - Scapy is a powerful Python-based interactive packet manipulation program and library.
    * [Scapy website](https://scapy.net/)
    * [Scapy Documentation](https://scapy.readthedocs.io/en/latest/index.html)
-
+* **LAVA -**
+* **Labgrid**
+* **LXA TAC**
+* 
 ### Simulation Tools
 * [SODA.Sim](https://github.com/soda-auto/soda-sim) - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
 * see also [Engine Development](#engine-development)
@@ -302,6 +329,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
  * [OpenRoadSim](https://github.com/karthagokul/openroadsim/) - `License: MIT` - OpenRoadSim is a proposed open-source simulation framework for integrated validation of automotive infotainment systems and signal-level domains. Built for accessibility and extensibility, OpenRoadSim enables developers to simulate and test complex, cross-domain vehicle interactions—including GPS, CAN bus, media playback, ADAS, and voice interaction—on standard laptops.
  * [Dynamic Simulation Environment](https://github.com/boschglobal?q=dse&type=all) - `License: Apache-2.0` - The Dynamic Simulation Environment is a message based distributed simulation platform which defines the interface between models as signal vectors. Signal vectors are a logical grouping of either scalar or binary data which are exchanged between models at discrete points in time. Models may be developed in any programming language and may run on any operating system or hardware platform.
     * [Documentation](https://boschglobal.github.io/dse.doc/)
+* **CARLA -**
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
