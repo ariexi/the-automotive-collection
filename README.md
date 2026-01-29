@@ -58,9 +58,9 @@ Content of this list:
 * [wireplumber](https://pipewire.pages.freedesktop.org/wireplumber/) - Wireplumber is a powerful session and policy manager for PipeWire. Originally started as part of [Automotive Grade Linux](https://www.automotivelinux.org) as session and policy manager with automotive use cases in mind, it quickly became _the_ default solution in use by meanwhile all major Linux distributions. For automotive this means 'batteries included' if using upstream pipewire+wireplumber.
 
 ### UI Frameworks ###
-* Qt -
-* HTML5 -
-* Flutter -
+* [Qt](https://wiki.qt.io/About_Qt) - Qt is a cross-platform application development framework for desktop, embedded and mobile. Supported Platforms include Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS and others. Qt is not a programming language on its own. It is a framework written in C++. 
+* HTML5 - Everything runs inside a browser engine here. E.g. Chromium or Firefox. The well known frameworks like React or nodejs can be used. 
+* [Flutter](https://flutter.dev) - Flutter transforms the development process. Build, test, and deploy beautiful mobile, web, desktop, and embedded experiences from a single codebase. It is driven by an embedder rendering the content. The programming language used is "Dart". [Dart](https://dart.dev/) is an open-source, scalable programming language, with robust libraries and runtimes, for building web, server, and mobile apps.
 
 ### Software Defined Vehicle (SDV)
 * [Software Defined Vehicle Maps](https://github.com/quarterbit/SoftwareDefinedCarMap)
@@ -93,9 +93,9 @@ Content of this list:
    * [eSync Alliance repos](https://github.com/esync-alliance) containing
       * [eSync Yocto layer for EWAOL platform](https://github.com/esync-alliance/meta-ewaol-esync) - `License: venmdor specific`
       * [Python Workload Agent to update k3s clusters for SOAFEE Framework ](https://github.com/esync-alliance/esync-wa) - `License: venmdor specific`
-* **rauc**
-* **mender**
-* **ostree**
+* [RAUC](https://rauc.io/) - RAUC is a lightweight update client that runs on your Embedded Linux device and reliably controls the procedure of updating your device with a new firmware revision. RAUC is also the tool on your host system that lets you create, inspect and modify update artifacts for your device. 
+* [mender](https://mender.io) - Mender provides a complete over-the-air (OTA) update infrastructure for developers and support teams. Whether in the field or the factory, remotely and easily manage device software without the need for manual labor.
+* [ostree](https://github.com/ostreedev/ostree) - As implied above, libostree is both a shared library and suite of command line tools that combines a "git-like" model for committing and downloading bootable filesystem trees, along with a layer for deploying them and managing the bootloader configuration.
 
 ### Container, Software and Service Orchestration
 * [Eclipse Ankaios](https://github.com/eclipse-ankaios/ankaios) - `License: Apache-2.0` - Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing (HPC) software. 
@@ -106,7 +106,7 @@ Content of this list:
 * [Eclipse Pullpiri](https://github.com/eclipse-pullpiri) - `License: Apache-2.0` - The main goal of Eclipse Pullpiri project is to develop an efficient vehicle service orchestrator framework to realize the potential benefits of cloud native technologies for in-vehicle services and...
 * [Eclipse Symphony](https://github.com/eclipse-symphony) - `License: MIT` - Project Symphony is an Eclipse Foundation open-source orchestration platform that simplifies workload management across diverse devices and service vendors. It integrates existing systems without modification, delivering a unified, consistent workflow for seamless operations.
    * [Eclipse Symphony documentation](https://github.com/eclipse-symphony/symphony/tree/main/docs)
-* **AGL drm-lease-manager - Usage of containers faces issues when multiple containers need to drive displays. drm-lease-manager lets you assign and manage displays to individual containers.**
+* AGL drm-lease-manager - Usage of containers faces issues when multiple containers need to drive displays. drm-lease-manager lets you assign and manage displays to individual containers.
 
 ### Public funded projects
 * [FEDERATE](https://federate-sdv.eu/) - European Software-Defined Vehicle of the Future (SDVoF) Initiative
@@ -293,10 +293,11 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
 * [Scapy](https://github.com/secdev/scapy/) - `License: GPL-2.0` - Scapy is a powerful Python-based interactive packet manipulation program and library.
    * [Scapy website](https://scapy.net/)
    * [Scapy Documentation](https://scapy.readthedocs.io/en/latest/index.html)
-* **LAVA -**
-* **Labgrid**
-* **LXA TAC**
-* 
+* [Labgrid](https://labgrid.readthedocs.io/en/latest/) - labgrid is an embedded board control python library with a focus on testing, development and general automation. It includes a remote control layer to control boards connected to other hosts.
+* [LAVA](https://www.lavasoftware.org) - Linaro Automated Validation Architecture (LAVA) is a continuous integration system for deploying operating systems onto physical and virtual hardware for running tests. LAVA is also used to managed and share boards among teams.
+* [LXA TAC](https://shop.linux-automation.com/) - Commercial product simplifying remote board control and testing. There are also SDMuxes and so on which can be very handy.
+
+
 ### Simulation Tools
 * [SODA.Sim](https://github.com/soda-auto/soda-sim) - SODA.Sim is designed for seamless software validation of any vehicle, covering the entire process from initial concept through certification to aftermarket updates. (commercial version is also available)
 * see also [Engine Development](#engine-development)
@@ -329,7 +330,7 @@ The company behind Arctic Core became part of [Vector Informatik in July 2018](h
  * [OpenRoadSim](https://github.com/karthagokul/openroadsim/) - `License: MIT` - OpenRoadSim is a proposed open-source simulation framework for integrated validation of automotive infotainment systems and signal-level domains. Built for accessibility and extensibility, OpenRoadSim enables developers to simulate and test complex, cross-domain vehicle interactions—including GPS, CAN bus, media playback, ADAS, and voice interaction—on standard laptops.
  * [Dynamic Simulation Environment](https://github.com/boschglobal?q=dse&type=all) - `License: Apache-2.0` - The Dynamic Simulation Environment is a message based distributed simulation platform which defines the interface between models as signal vectors. Signal vectors are a logical grouping of either scalar or binary data which are exchanged between models at discrete points in time. Models may be developed in any programming language and may run on any operating system or hardware platform.
     * [Documentation](https://boschglobal.github.io/dse.doc/)
-* **CARLA -**
+* [CARLA](https://carla.readthedocs.io/en/latest/) - CARLA is an open-source autonomous driving simulator. It was built from scratch to serve as a modular and flexible API to address a range of tasks involved in the problem of autonomous driving. 
 
 ### Analytics
 * [Formula 1 Telemetry Analysis Tool](https://github.com/hynesconnor/formula1-telemetry-tool)
