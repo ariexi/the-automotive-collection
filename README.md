@@ -5,6 +5,7 @@
 [![GitHub pull-requests merged](https://badgen.net/github/merged-prs/ariexi/the-automotive-collection)](https://github.com/ariexi/the-automotive-collection/pulls?q=is%3Amerged)
 [![GitHub latest commit](https://badgen.net/github/last-commit/ariexi/the-automotive-collection)](https://GitHub.com/ariexi/the-automotive-collection/commit/)
 ---
+# The Automotive Collection has moved to: https://github.com/eclipse-sdv-landscape/the-automotive-collection!
 
 # The Automotive Collection
 A collection of automotive OSS projects which may help you in the automotive context!
